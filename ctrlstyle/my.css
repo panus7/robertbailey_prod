@@ -1,0 +1,67 @@
+/**, *::before, *::after
+{
+    box-sizing: border-box;
+}
+div.parallax-image*
+{
+    -webkit-background-size: 100vmax 100vmax;
+    -moz-background-size: 100vmax 100vmax;
+    background-size: 100vmax 100vmax;
+    top: 0;
+}*/
+
+div.parallax-image1
+{
+    background-image: url('../img/HomepageBG1.jpg');
+    -webkit-background-size: 100vmax 100vmax;
+    -moz-background-size: 100vmax 100vmax;
+    background-size: 100vmax 100vmax;
+    top: 0;
+}
+
+div.parallax-image2
+{
+    background-image: url('../img/HomepageBG2.jpg');
+    -webkit-background-size: 100vmax 100vmax;
+    -moz-background-size: 100vmax 100vmax;
+    background-size: 100vmax 100vmax;
+    top: 0;
+}
+
+.sticky
+{
+    margin-top: -100vh;
+    /*width: 100vw;*/
+    height: 100vh;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
+div.section
+{
+    position: relative;
+    background-color: rgba(8, 29, 84,0.28);
+    color: white;
+    /*width: 100%;*/
+    min-height: 100vh;
+    /*padding: 3em calc(20vw - 70px);*/
+    z-index: 1;
+}
+
+div.section.gray
+{
+    background-color: rgba(255, 255, 255,0.82);
+}
+
+/*div.section:last-child
+{
+    min-height: 50vh;
+    padding: 3em calc(20vw - 70px) 6em;
+}*/
+
+/*.page-title > div > h1
+{
+    font-size: 80px;
+}*/

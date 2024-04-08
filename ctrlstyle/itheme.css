@@ -1,0 +1,797 @@
+﻿@import url('../fonts/stylesheet.css');
+
+/*********fonts**********/
+.fontmain
+{
+    font-family: 'etherealthin' , sans-serif;
+}
+
+.fontsub
+{
+    font-family: 'acuminlight' , sans-serif;
+}
+
+
+/***********background***********/
+.bgfixed
+{
+    /*width: 100vw;     height: 100vh;*/
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; /*position: -webkit-sticky;  Safari      position: sticky;     top: 0;     z-index: 0;*/
+}
+.bgnomal
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.robwhitemask
+{
+    background-color: rgba(255, 255, 255,0.82);
+    color: rgb(8, 29, 84);
+}
+.robgraymask
+{
+    background-color: rgba(8, 29, 84,0.28);
+    color: rgb(255, 255, 255);
+}
+
+.robmain_pre .bespoke_line, .robmain_pre .subbespoke_line
+{
+    background-color: #FFFFFF;
+}
+
+/***********navbar***********/
+/*nav
+{
+    transition: background-color 0.4s ease-out;
+}
+nav.scroll
+{
+    background-color: rgba(0, 0, 0,0.58);
+}
+
+.d-flex{display:-ms-flexbox!important;display:flex!important}*/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{
+    .letter_spacing
+    {
+        letter-spacing: .2em;
+    }
+
+    .robnavbar .navbar-nav .nav-link
+    {
+        border: none !important;
+    }
+
+    .robhight
+    {
+        min-height: 852px;
+    }
+
+    .robbgpre01
+    {
+        background-image: url('../img/HomepageBG1_2.jpg');
+    }
+    .robbgpre02
+    {
+        background-image: url('../img/HomepageBG2_2.jpg');
+    }
+
+    .robwhitemask .title, .robgraymask .title
+    {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .robwhitemask .message, .robgraymask .message
+    {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .robmain_pre .fullname
+    {
+        font-size: 28px;
+    }
+    .robmain_pre .bespoke
+    {
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+    .robmain_pre .bespoke_line
+    {
+        width: 22px;
+        height: 2px;
+        margin-top: 9px;
+    }
+    .robmain_pre .since
+    {
+        font-size: 13px;
+        padding-top: 2px;
+    }
+    .robmain_pre .tailoring
+    {
+        font-size: 15px;
+        margin-bottom: 50px;
+        margin-top: 300px;
+    }
+
+    nav#dot-nav
+    {
+        right: 10px;
+    }
+    nav#dot-nav a
+    {
+        width: 3px;
+        height: 30px;
+        margin: 7px;
+    }
+
+    .hover_switch img
+    {
+        margin: 5px 7px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .btntop
+    {
+        height: 100px;
+    }
+    .btntop .topimg
+    {
+        left: 37%;
+    }
+
+    .robfooter
+    {
+        min-height: 400px;
+    }
+    .robfooter .title
+    {
+        font-size: 18px;
+    }
+    .robfooter .message
+    {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .robfooter .robltd
+    {
+        padding-top: 47px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .letter_spacing
+    {
+        letter-spacing: .2em;
+    }
+
+    .robnavbar .navbar-nav .nav-link
+    {
+        border: none !important;
+    }
+
+    .robhight
+    {
+        min-height: 1080px;
+    }
+
+    .robbgpre01
+    {
+        background-image: url('../img/HomepageBG1_2.jpg');
+    }
+    .robbgpre02
+    {
+        background-image: url('../img/HomepageBG2_2.jpg');
+    }
+
+    .robwhitemask .title, .robgraymask .title
+    {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .robwhitemask .message, .robgraymask .message
+    {
+        font-size: 16px;
+        margin-top: 60px;
+    }
+
+    .robmain_pre .fullname
+    {
+        font-size: 38px;
+    }
+    .robmain_pre .bespoke
+    {
+        font-size: 28px;
+        line-height: 28px;
+        padding-top: 12px;
+    }
+    .robmain_pre .bespoke_line
+    {
+        width: 24px;
+        height: 2px;
+        margin-top: 9px;
+    }
+    .robmain_pre .since
+    {
+        font-size: 14px;
+        padding-top: 2px;
+    }
+    .robmain_pre .tailoring
+    {
+        font-size: 18px;
+        margin-bottom: 100px;
+        margin-top: 350px;
+    }
+
+    nav#dot-nav
+    {
+        right: 10px;
+    }
+    nav#dot-nav a
+    {
+        width: 5px;
+        height: 35px;
+        margin: 10px;
+    }
+
+    .hover_switch img
+    {
+        margin: 5px 10px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .btntop
+    {
+        height: 100px;
+    }
+    .btntop .topimg
+    {
+        left: 41%;
+    }
+
+    .robfooter
+    {
+        min-height: 450px;
+    }
+    .robfooter .title
+    {
+        font-size: 22px;
+    }
+    .robfooter .message
+    {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .robfooter .robltd
+    {
+        padding-top: 47px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .letter_spacing
+    {
+        letter-spacing: .2em;
+    }
+
+    .robnavbar .navbar-nav .nav-link
+    {
+        border: none !important;
+    }
+
+    .robhight
+    {
+        min-height: 1080px;
+    }
+
+    .robbgpre01
+    {
+        background-image: url('../img/Homepage_BG1.jpg');
+    }
+    .robbgpre02
+    {
+        background-image: url('../img/Homepage_BG2.jpg');
+    }
+
+    .robwhitemask .title, .robgraymask .title
+    {
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .robwhitemask .message, .robgraymask .message
+    {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    .robmain_pre .fullname
+    {
+        font-size: 44px;
+    }
+    .robmain_pre .bespoke
+    {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 10px;
+    }
+    .robmain_pre .bespoke_line
+    {
+        width: 28px;
+        height: 3px;
+        margin-top: 12px;
+    }
+    .robmain_pre .since
+    {
+        font-size: 16px;
+        padding-top: 2px;
+    }
+    .robmain_pre .tailoring
+    {
+        font-size: 26px;
+        margin-bottom: 100px;
+        margin-top: 300px;
+    }
+
+    nav#dot-nav
+    {
+        right: 20px;
+    }
+    nav#dot-nav a
+    {
+        width: 7px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .hover_switch img
+    {
+        margin: 5px 10px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .btntop
+    {
+        height: 130px;
+    }
+    .btntop .topimg
+    {
+        left: 42%;
+    }
+
+    .robfooter
+    {
+        min-height: 550px;
+    }
+    .robfooter .title
+    {
+        font-size: 27px;
+    }
+    .robfooter .message
+    {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .robfooter .robltd
+    {
+        padding-top: 77px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .letter_spacing
+    {
+        letter-spacing: .2em;
+    }
+
+    .robnavbar .navbar-nav .nav-link
+    {
+        border-style: solid;
+        border-width: 0px 1px 0px 0px;
+        border-color: rgb(255,255,255);
+    }
+
+    .robhight
+    {
+        min-height: 100vh;
+    }
+
+    .robbgpre01
+    {
+        background-image: url('../img/Homepage_BG1.jpg');
+    }
+    .robbgpre02
+    {
+        background-image: url('../img/Homepage_BG2.jpg');
+    }
+
+    .robwhitemask .title, .robgraymask .title
+    {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .robwhitemask .message, .robgraymask .message
+    {
+        font-size: 22px;
+        margin-top: 70px;
+    }
+
+    .robmain_pre .fullname
+    {
+        font-size: 52px;
+    }
+    .robmain_pre .bespoke
+    {
+        font-size: 32px;
+        line-height: 32px;
+        padding-top: 15px;
+    }
+    .robmain_pre .bespoke_line
+    {
+        width: 25px;
+        height: 3px;
+        margin-top: 13px;
+    }
+    .robmain_pre .since
+    {
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    .robmain_pre .tailoring
+    {
+        font-size: 28px;
+        margin-bottom: 100px;
+        margin-top: 300px;
+    }
+
+    nav#dot-nav
+    {
+        right: 20px;
+    }
+    nav#dot-nav a
+    {
+        width: 7px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .hover_switch img
+    {
+        margin: 5px 10px;
+        width: 52px;
+        height: 52px;
+    }
+
+    .btntop
+    {
+        height: 130px;
+    }
+    .btntop .topimg
+    {
+        left: 44%;
+    }
+
+    .robfooter
+    {
+        min-height: 550px;
+    }
+    .robfooter .title
+    {
+        font-size: 27px;
+    }
+    .robfooter .message
+    {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .robfooter .robltd
+    {
+        padding-top: 77px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+    .letter_spacing
+    {
+        letter-spacing: .2em;
+    }
+
+    .robnavbar .navbar-nav .nav-link
+    {
+        border-style: solid;
+        border-width: 0px 1px 0px 0px;
+        border-color: rgb(255,255,255);
+    }
+
+    .robhight
+    {
+        min-height: 100vh;
+    }
+
+    .robbgpre01
+    {
+        background-image: url('../img/Homepage_BG1.jpg');
+    }
+    .robbgpre02
+    {
+        background-image: url('../img/Homepage_BG2.jpg');
+    }
+
+    .robbgpreG01
+    {
+        background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
+    }
+
+    .robwhitemask .title, .robgraymask .title
+    {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .robwhitemask .message, .robgraymask .message
+    {
+        font-size: 26px;
+        margin-top: 50px;
+    }
+
+    .robmain_pre .fullname
+    {
+        font-size: 64px;
+    }
+    .robmain_pre .bespoke
+    {
+        font-size: 44px;
+        line-height: 44px;
+        padding-top: 20px;
+    }
+    .robmain_pre .bespoke_line
+    {
+        width: 30px;
+        height: 3px;
+        margin-top: 15px;
+    }
+    .robmain_pre .subbespoke
+    {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 20px;
+    }
+    .robmain_pre .subbespoke_line
+    {
+        width: 24px;
+        height: 2px;
+        margin-top: 8px;
+    }
+    .robmain_pre .since
+    {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .robmain_pre .tailoring
+    {
+        font-size: 24px;
+        margin-bottom: 80px;
+        margin-top: 170px;
+    }
+
+    nav#dot-nav
+    {
+        right: 30px;
+    }
+    nav#dot-nav a
+    {
+        width: 7px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .hover_switch img
+    {
+        margin: 5px 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .payment_serv img
+    {
+        margin: 5px 10px;
+        width: 109px;
+        height: auto;
+    }
+
+    .btntop
+    {
+        height: 10px;
+    }
+    .btntop .topimg
+    {
+        left: 47%;
+    }
+
+    .robfooter
+    {
+        min-height: 90vh;
+    }
+    .robfooter .title
+    {
+        font-size: 27px;
+    }
+    .robfooter .message
+    {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .robfooter .robltd
+    {
+        padding-top: 77px;
+    }
+}
+
+.robnavbar .navbar-brand
+{
+    color: #fff;
+}
+.robnavbar .navbar-brand:focus, .robnavbar .navbar-brand:hover
+{
+    color: #fff;
+}
+.robnavbar .navbar-nav .nav-link
+{
+    padding: 3px 30px !important;
+    color: rgb(255,255,255); /*font-weight: 500;     line-height: 24px;     text-align: center;*/
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.robnavbar .navbar-nav .nav-link:focus, .robnavbar .navbar-nav .nav-link:hover
+{
+    color: rgba(255,255,255,.75);
+}
+.robnavbar .navbar-nav .nav-link.disabled
+{
+    color: rgba(255,255,255,.25);
+}
+.robnavbar .navbar-nav .active > .nav-link, .robnavbar.navbar-nav .nav-link.active, .robnavbar .navbar-nav .nav-link.show, .robnavbar .navbar-nav .show > .nav-link
+{
+    color: #fff;
+}
+.robnavbar .navbar-toggler
+{
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+.robnavbar .navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.robnavbar .navbar-text
+{
+    color: rgba(255,255,255,.5);
+}
+.robnavbar .navbar-text a
+{
+    color: #fff;
+}
+.robnavbar .navbar-text a:focus, .robnavbar .navbar-text a:hover
+{
+    color: #fff;
+}
+/*link no border*/
+.robnavbar .navbar-nav .nav-link.noborder
+{
+    border: none !important;
+}
+
+.robbgnavbar
+{
+    background-color: transparent !important;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+}
+.robbgnavbar.bg-lime
+{
+    background-color: rgba(14, 16, 15,0.38) !important;
+}
+
+/***********nav dot**********/
+nav#dot-nav
+{
+    position: fixed;
+}
+nav#dot-nav a
+{
+    /*border: 1px solid #121212;     border-radius: 50%;     width: 16px;     height: 16px;*/
+    background-color: rgb(255, 255, 255);
+    display: block;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+}
+nav#dot-nav a.active
+{
+    /*background: #121212;*/
+    background-color: rgba(14, 16, 15,0.38);
+}
+
+.hover_switch
+{
+    position: relative; /*display: inline-block;*/
+}
+.hover_switch .img_top
+{
+    opacity: 1;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}
+.hover_switch:hover .img_top
+{
+    opacity: 0;
+}
+
+.btntop
+{
+    position: relative;
+}
+.btntop .topimg
+{
+    position: absolute;
+}
+
+.robfooter
+{
+    color: rgb(8, 29, 84);
+}
+
+.btntop .topimg
+{
+    top: -53px;
+}
+.btntop img
+{
+    width: 106px;
+    height: 106px;
+}
+
+.alink
+{
+    color: rgb(8, 29, 84);
+    text-decoration: none;
+}
+.alink:hover
+{
+    color: rgba(8, 29, 84, .8);
+    text-decoration: none;
+}
+
+#myContact
+{
+  position: fixed;
+  top: 50%;
+  left: 0;
+  writing-mode: vertical-lr; 
+  transform: translateY(-50%);  
+  background-color: transparent !important;
+  border: none;
+  cursor: pointer;
+}
