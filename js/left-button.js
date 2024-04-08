@@ -8,6 +8,7 @@ if (button) {
 
     if (currentScroll > initialTop) {
       button.style.top = '${50}px'; // Fix button at 50px from top after scrolling
+      button.style.zindex = '1000'; 
     } else {
       button.style.top = ''; // Reset button position when above initial position
     }
