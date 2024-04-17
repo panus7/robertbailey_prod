@@ -1,0 +1,21 @@
+.modal-backdrop {
+    position: fixed;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+/* For iPads (adjust breakpoints as needed) */
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .modal {
+        width: 100%;
+        font-size: 10px; 
+    }
+} */
+
+/* For iPhone */
+/* @media only screen and (max-width: 768px) { 
+    .modal {
+      width: 1000px;
+      font-size: 10px; 
+    }
+} */
