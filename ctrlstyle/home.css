@@ -1,6 +1,14 @@
-#btnContact
-{
-    width: 50%;    
-    height: 50%;
-}
- 
+
+.cookie-dialog {
+    position: fixed; /* Stays fixed on the screen */
+    bottom: 0; /* Positions at the bottom */
+    left: 0; /* Positions at the left */
+    width: 100%; /* Full width */
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 15px;
+    display: flex; /* Arranges content in a row */
+    justify-content: space-between; /* Spaces content evenly */
+    align-items: center; /* Aligns content vertically */
+    z-index: 100; /* Ensures the dialog appears above other content */ 
+    justify-content: space-between;
+  }

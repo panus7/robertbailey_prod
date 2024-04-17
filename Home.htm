@@ -9,48 +9,47 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="awesome5.14.0/css/all.css" />
     <link rel="stylesheet" href="ctrlstyle/itheme.css" />
-    <link rel="stylesheet" href="ctrlstyle/home.css" />
+    <link rel="stylesheet" href="ctrlstyle/ihope.css" />
+    <link rel="stylesheet" href="ctrlstyle/home.css" /> 
 </head>
 <body>
     <div class="bgfixed robbgpre01">
         <nav class="navbar navbar-expand-lg robnavbar robbgnavbar fontsub letter_spacing fixed-top pt-lg-5">
-  <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#robsnavbar" aria-controls="robsnavbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="robsnavbar">
-    <ul class="navbar-nav mr-auto mx-auto text-uppercase mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="Home.htm">home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">the ultimate bespoke experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">trunk show</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">accessories</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">about us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Gallery.htm">gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link noborder" href="#">language</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#robsnavbar"
+            aria-controls="robsnavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="robsnavbar">
+            <ul class="navbar-nav mr-auto mx-auto text-uppercase mt-2 mt-lg-0">
+                <li class="nav-item active"><a class="nav-link" href="Home.htm">home <span class="sr-only">
+                    (current)</span></a> </li>
+                <li class="nav-item"><a class="nav-link" href="#">the ultimate bespoke experience</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="Trunk_Show.htm">trunk show</a> </li>
+                <li class="nav-item"><a class="nav-link" href="Accessories.htm">accessories</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="About_us.htm">about us</a> </li>
+                <li class="nav-item"><a class="nav-link" href="Gallery.htm">gallery</a> </li>
+                <li class="nav-item dropdown"><a class="nav-link noborder" href="#" id="M_language"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">language</a>
+                    <div class="dropdown-menu" aria-labelledby="M_language"> 
+                        <a class="dropdown-item fontsub" href="#">English</a>
+                        <a class="dropdown-item noto-serif-jp" href="#">日本語</a>
+                        <a class="dropdown-item noto-sans-tc" href="#">中國人</a>
+                        <a class="dropdown-item noto-sans-kr" href="#">한국어</a>
+                        <a class="dropdown-item anuphan" href="#">ภาษาไทย</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </nav>
         <nav id="dot-nav"></nav>
         <section>
         <div class="container-fluid robgraymask">
             <div class="d-flex align-items-end justify-content-center robhight robmain_pre">
                 <div class="text-center container-lg">
-                    <button id="myContact" class="btnContact" data-toggle="modal" data-target="#exampleModal3">
+                    <button id="myContact"  style="z-index: 100;" data-toggle="modal" data-target="#exampleModal3">
                         <img id="btnContact" alt="" src="img/Icon/btn_contact_us.png" /></button>
                     <div class="text-uppercase fontmain letter_spacing fullname">
                             robert bailey
@@ -81,7 +80,7 @@
         </section>
         <section>
         <div class="container-fluid robwhitemask">
-            <div class="d-flex align-items-center justify-content-center robhight">
+            <div class="d-flex align-items-center justify-content-center robhight pt-5 pb-5">
                 <div class="text-center container-lg">
                     <div>
                         <img alt="" src="img/main_icon/fits_like_a_glove.png" />
@@ -102,13 +101,13 @@
     <div class="bgfixed robbgpre02">
         <section>
         <div class="container-fluid robgraymask">
-            <div class="d-flex align-items-center justify-content-center robhight pr-lg-5 pl-lg-5">
+            <div class="d-flex align-items-center justify-content-center robhight pr-lg-5 pl-lg-5 pt-5 pb-5">
                 <div class="text-center">
                     <div class="fontmain letter_spacing text-uppercase title">
                         robert bailey bespoke<br />
                         trunk show
                     </div>
-                    <div class="row justify-content-center pt-4">
+                    <div id="country_trunk" class="row justify-content-center pt-4">
                         <div class="col-auto col-xl-3 text-center mb-3">
                             <a href="#">
                                 <img alt="" src="img/main_icon/trunk_show_r1_01.png" /></a>
@@ -147,7 +146,8 @@
                     </div>-->
                     <div class="message">
                         <button type="button" class="btn btn-light text-uppercase fontsub" style="padding: 10px 50px 5px 50px;
-                            color: rgb(8, 29, 84); font-size: 26px; letter-spacing: .15em;">
+                            color: rgb(8, 29, 84); font-size: 26px; letter-spacing: .15em;"
+                            onclick="location.href='mailto:RobertBailey@RobertBaileyBespoke.com?subject=Appointment%20Subject&body=Appointment'">
                             book an appointment</button>
                     </div>
                 </div>
@@ -156,32 +156,32 @@
         </section>
         <section>
         <div class="container-fluid robwhitemask">
-            <div class="d-flex align-items-center justify-content-center robhight pr-lg-5 pl-lg-5">
+            <div id="tree_gall" class="d-flex align-items-center justify-content-center robhight pr-lg-5 pl-lg-5 pt-5 pb-5">
                 <div class="text-center" style="width: 100%">
-                    <div class="row justify-content-center pt-4">
-                        <div class="col-auto col-xl-4 mb-3">
-                            <div>
+                    <div class="row justify-content-around pt-4">
+                        <div class="col-auto mb-3">
+                            <div class="eff_img_frame_home">
                                 <a href="#">
-                                    <img alt="" src="img/Homepage_Lower_1.jpg" /></a>
+                                    <img class="eff_img_zoomin" alt="" src="img/Homepage_Lower_1.jpg" /></a>
                             </div>
                             <div class="fontmain letter_spacing text-uppercase message">
                                 <a href="#" class="alink">the ultimate<br />
                                     bespoke experience </a>
                             </div>
                         </div>
-                        <div class="col-auto col-xl-4 mb-3">
-                            <div>
+                        <div class="col-auto mb-3">
+                            <div class="eff_img_frame_home">
                                 <a href="Gallery.htm">
-                                    <img alt="" src="img/Homepage_Lower_2.jpg" /></a>
+                                    <img class="eff_img_zoomin" alt="" src="img/Homepage_Lower_2.jpg" /></a>
                             </div>
                             <div class="fontmain letter_spacing text-uppercase message">
                                 <a href="Gallery.htm" class="alink">our gallery </a>
                             </div>
                         </div>
-                        <div class="col-auto col-xl-4 mb-3">
-                            <div>
+                        <div class="col-auto mb-3">
+                            <div class="eff_img_frame_home">
                                 <a href="#">
-                                    <img alt="" src="img/Homepage_Lower_3.jpg" /></a>
+                                    <img class="eff_img_zoomin" alt="" src="img/Homepage_Lower_3.jpg" /></a>
                             </div>
                             <div class="fontmain letter_spacing text-uppercase message">
                                 <a href="#" class="alink">about us </a>
@@ -198,6 +198,8 @@
         <a href="#" class="topimg">
             <img alt="Top" src="img/Icon/Button_Icon-01.png" /></a>
     </div>
+
+    <!-- FIND OUT MORE -->
     <div class="d-flex align-items-center justify-content-center robfooter">
         <div class="container-fluid text-center">
             <div class="fontmain letter_spacing text-uppercase title">
@@ -211,14 +213,16 @@
                 robert bailey bespoke ltd
             </div>
             <div class="fontsub letter_spacing font-italic message">
-                Email: robertbailey@robertbaileybespoke.com
+                <a href="mailto:'RobertBailey@RobertBaileyBespoke.com'"> Email: robertbailey@robertbaileybespoke.com</a>
             </div>
             <div class="fontsub letter_spacing font-italic message">
-                Phone: +44 7709 420 841
+                <a href="tel:+447709420841">Phone: +44 7709 420 841</a>
             </div>
             <div class="fontmain letter_spacing text-uppercase title" style="padding-top: 27px">
                 follow us
             </div>
+
+            <!-- followus -->
             <div style="padding-top: 17px" class="row no-gutters justify-content-center">
                 <div class="col-auto">
                     <a class="hover_switch" href="#" data-toggle="modal" data-target="#exampleModal">
@@ -227,52 +231,54 @@
                     </a>
                 </div>
                 <div class="col-auto">
-                    <a class="hover_switch" href="#">
+                    <a class="hover_switch" href="https://www.instagram.com/robertbaileybespoke" target="_blank">
                         <img src="img/Icon/IG_Normal-01.jpg" class="img_top" alt="Instagram">
                         <img src="img/Icon/IG_Active-01.jpg" alt="Instagram">
                     </a>
                 </div>
                 <div class="col-auto">
-                    <a class="hover_switch" href="#">
+                    <a class="hover_switch" href="weixin://">
                         <img src="img/Icon/Weechat_Normal-01.jpg" class="img_top" alt="Weechat">
                         <img src="img/Icon/Weechat_Active-01.jpg" alt="Weechat">
                     </a>
                 </div>
                 <div class="col-auto">
-                    <a class="hover_switch" href="#">
+                    <a class="hover_switch" href="https://www.facebook.com/RobertBaileyBespoke" target="_blank">
                         <img src="img/Icon/Facebook_Normal-01.jpg" class="img_top" alt="Facebook">
                         <img src="img/Icon/Facebook_Active-01.jpg" alt="Facebook">
                     </a>
                 </div>
                 <div class="col-auto">
-                    <a class="hover_switch" href="#">
+                    <a class="hover_switch" href="https://wa.me/17709420841" target="_blank">
                         <img src="img/Icon/Whatsapp_Normal-01.jpg" class="img_top" alt="Whatsapp">
                         <img src="img/Icon/Whatsapp_Active-01.jpg" alt="Whatsapp">
                     </a>
                 </div>
             </div>
+
+
             <div class="robltd row no-gutters justify-content-center">
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_AMEX_Icon.png" alt="AMEX">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_VISA_Icon.png" alt="VISA">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_Master_Card_Icon.png" alt="Master Card">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_Union_Pay_Icon.png" alt="Union Pay">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_Alipay_Icon.png" alt="Alipay">
                     </a>
@@ -281,21 +287,83 @@
         </div>
     </div>
     </section>
+
+    <!-- Cookies -->
+    <div style="padding: 20px; background-color: transparent;" class="cookie-dialog" id="cookie-dialog">
+        <div class="robpopup mx-auto col-xl-5 col-lg-7 ">
+            <!--width: 90%;-->
+            <div class="btncookies">
+                <a href="#" class="topimg">
+                    <img alt="Top" src="img/Icon/Button_Icon.png" /></a>
+            </div>
+            <div style="padding: 30px;" class="letter_spacing text-center">
+                <div style="font-size: 18px;">
+                    By clicking "Accept All Cookies", you agree to the storing of cookies your device
+                    to enhance site navigation, analyze site usage, and assist in our maketing efforts.
+                </div>
+                <div class="row justify-content-around" style="padding-top: 30px">
+                    <div class="col-auto mb-2">
+                        <button type="button" id="accept-cookie-btn" class="btn btn-light font-italic" style="border: 1px solid rgb(8, 29, 84);
+                            color: rgb(8, 29, 84); font-size: 16px; letter-spacing: .15em; background-color: #FFF;">
+                            Accept cookies</button>
+                    </div>
+                    <div class="col-auto mb-2">
+                        <button type="button" id="decline-cookie-btn" class="btn btn-light font-italic" style="border: 1px solid rgb(8, 29, 84);
+                            color: rgb(8, 29, 84); font-size: 16px; letter-spacing: .15em; background-color: #FFF;">
+                            Decline cookies</button>
+                    </div>
+                </div>
+                <div style="padding-top: 10px; font-size: 14px" class="font-italic">
+                    <a href="#" class="alink">Cookies setting</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-sm">
-            <div class="modal-content">
-                <div class="p-3 text-center" style="margin: 20px 0px">
-                    <button type="button" class="close p-0 m-0" data-dismiss="modal" aria-label="Close">
+            <div class="modal-content robpopup">
+                <div class="modal-header noneborder">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <div style="padding: 3px 20px 3px 23px">
+                </div>
+                <div class="text-center" style="padding-bottom: 40px">
+                    <div>
                         <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
                     </div>
-                    <div class="fontsub letter_spacing font-italic" style="font-size: 16px; padding-top: 20px;
-                        color: color: rgb(14, 16, 15);">
+                    <div class="fontsub letter_spacing font-italic" style="font-size: 16px; padding-top: 20px;">
                         LINE ID: rob_bailey</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content robpopup">
+                <div class="modal-header noneborder">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div style="padding: 0px 30px 40px 30px">
+                    <div style="padding-bottom: 5px;">
+                        <img src="img/rob_accessories/Accessories_page_Product_Example_1.jpg" alt="" width="100%"
+                            height="auto" />
+                    </div>
+                    <div class="fontmain letter_spacing" style="font-size: 26px; line-height: 32px; color: rgb(14, 16, 15);
+                        padding-top: 20px;">
+                        Product Details : Brace<br />
+                        Delivery : Worldwide<br />
+                        Colour : Navy Blue
+                    </div>
                 </div>
             </div>
         </div>
@@ -303,21 +371,179 @@
     <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal3Label"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-sm">
-            <div class="modal-content">
-                <div class="p-3 text-center" style="margin: 20px 0px">
-                    <button type="button" class="close p-0 m-0" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <div style="padding: 3px 20px 3px 23px">
-                        <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
+            <div class="modal-content robpopup">
+                <div class="row no-gutters">
+                    <div class="col-auto">
+                        <div class="nav flex-column navimg-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"
+                            style="padding: 30px 0px 0px 25px;">
+                            <a class="linebutton nav-link active" href="#" id="line-tab" data-toggle="pill" data-target="#line-content"
+                                type="button" role="tab" aria-controls="line-content" aria-selected="true"></a>
+                            <a class="IGbutton nav-link" id="IG-tab" data-toggle="pill" data-target="#IG-content"
+                                type="button" role="tab" aria-controls="IG-content" aria-selected="false"></a>
+                            <a class="weechatbutton nav-link" id="weechat-tab" data-toggle="pill" data-target="#weechat-content"
+                                type="button" role="tab" aria-controls="weechat-content" aria-selected="false">
+                            </a><a class="facebookbutton nav-link" id="facebook-tab" data-toggle="pill" data-target="#facebook-content"
+                                type="button" role="tab" aria-controls="facebook-content" aria-selected="false">
+                            </a><a class="whatsappbutton nav-link" id="whatsapp-tab" data-toggle="pill" data-target="#whatsapp-content"
+                                type="button" role="tab" aria-controls="whatsapp-content" aria-selected="false">
+                            </a><a class="emailbutton nav-link" id="email-tab" data-toggle="pill" data-target="#email-content"
+                                type="button" role="tab" aria-controls="email-content" aria-selected="false">
+                            </a>
+                        </div>
                     </div>
-                    <div class="fontsub letter_spacing font-italic" style="font-size: 16px; padding-top: 20px;
-                        color: color: rgb(14, 16, 15);">
-                        LINE ID: rob_bailey</div>
+
+                    <!-- modal-contactus -->
+                    <div class="col">
+                        <div class="modal-header noneborder">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="tab-content text-center" style="padding: 0px 20px 40px 0px;" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="line-content" role="tabpanel" aria-labelledby="line-tab">
+                                <div>
+                                    <img src="img/qr/qr_line.jpg" alt="Line ID" width="150px" height="auto" />
+                                </div>
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
+                                    LINE ID: rob_bailey</div>
+                            </div>
+                            <div class="tab-pane fade" id="IG-content" role="tabpanel" aria-labelledby="IG-tab">
+                                <div>
+                                    <img src="img/qr/qr_ig.png" alt="Line ID" width="150px" height="auto" />
+                                </div>
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
+                                    <a href="https://www.instagram.com/robertbaileybespoke" target="_blank">IG: robertbaileybespoke</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="weechat-content" role="tabpanel" aria-labelledby="weechat-tab">
+                                <div>
+                                    <img src="img/qr/qr_wechat.png" alt="Line ID" width="150px" height="auto" />
+                                </div>
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;"> 
+                                     Weechat ID: RobertBailey
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="facebook-content" role="tabpanel" aria-labelledby="facebook-tab">
+                                <div>
+                                    <img src="img/qr/qr_fb.png" alt="Line ID" width="150px" height="auto" />
+                                </div>
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
+                                    <a href="https://www.facebook.com/robertbaileybespoke" target="_blank"> Facebook: robertbailey</a>
+                                </div> 
+                            </div>
+                            <div class="tab-pane fade" id="whatsapp-content" role="tabpanel" aria-labelledby="whatsapp-tab">
+                                <div>
+                                    <img src="img/qr/qr_wapp.png" alt="Line ID" width="150px" height="auto" />
+                                </div>
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
+                                    <a href="https://wa.me/17709420841" target="_blank"> Whatsapp ID:+447709420841</a>
+                                </div>  
+                            </div>
+                            <div class="tab-pane fade" id="email-content" role="tabpanel" aria-labelledby="email-tab">
+                                <div>
+                                    <img src="img/qr/qr_mail.png" alt="Line ID" width="150px" height="auto" />
+                                </div>
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
+                                    <a href="mailto:'RobertBailey@RobertBaileyBespoke.com'">Email: RobertBailey @ RobertBaileyBespoke.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModal4Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content robpopup fontsub">
+                <div class="modal-header noneborder">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div style="padding: 3em calc(10vw - 90px);">
+                    <div class="fontmain text-uppercase" style="font-size: 42px; line-height: 32px; letter-spacing: .1em;">
+                        hong kong trunk show
+                    </div>
+                    <div class="font-italic" style="font-size: 40px; line-height: 30px; padding-top: 25px;
+                        letter-spacing: .18em;">
+                        The Upper House
+                    </div>
+                    <div class="text-uppercase" style="font-size: 106px; line-height: 66px; padding-top: 55px;
+                        letter-spacing: .21em;">
+                        january
+                    </div>
+                    <div style="font-size: 86px; line-height: 66px; padding-top: 20px; letter-spacing: .18em;">
+                        2024
+                    </div>
+                    <div style="padding-top: 35px;" class="row no-gutters">
+                        <div class="col-auto mt-2">
+                            <div class="p-2">
+                                <div style="font-size: 106px; line-height: 76px; letter-spacing: .18em; padding-right: 14px;">
+                                    12
+                                </div>
+                                <div class="font-italic" style="padding: 10px 14px 0px 0px; font-size: 32px; line-height: 32px;
+                                    letter-spacing: .1em;">
+                                    9am-8pm
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto mt-2" style="border-left-style: solid; border-left-width: 4px;
+                            border-left-color: rgb(8, 29, 84);">
+                            <div class="p-2">
+                                <div style="padding: 0px 14px; font-size: 106px; line-height: 76px; letter-spacing: .18em;">
+                                    13
+                                </div>
+                                <div class="font-italic" style="padding: 10px 14px 0px 14px; font-size: 32px; line-height: 32px;
+                                    letter-spacing: .1em;">
+                                    9am-8pm
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto mt-2" style="border-left-style: solid; border-left-width: 4px;
+                            border-left-color: rgb(8, 29, 84);">
+                            <div class="p-2">
+                                <div style="padding: 0px 14px; font-size: 106px; line-height: 76px; letter-spacing: .18em;">
+                                    14
+                                </div>
+                                <div class="font-italic" style="padding: 10px 14px 0px 14px; font-size: 32px; line-height: 32px;
+                                    letter-spacing: .1em;">
+                                    9am-8pm
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-top: 35px;">
+                        <button type="button" class="btn btn-light font-italic" style="padding: 15px 10px 10px 10px;
+                            background-color: rgba(8, 29, 84, 0.28); color: rgb(8, 29, 84); font-size: 18px;
+                            letter-spacing: .15em;"
+                            onclick="location.href='mailto:RobertBailey@RobertBaileyBespoke.com?subject=Appointment%20Subject&body=Appointment'">
+                            Book an Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModal5Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content robpopup fontsub">
+                <div class="modal-header noneborder">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="text-center" style="padding: 0px 30px 40px 30px;">
+                        <img alt="" src="img/rob_gallery/Gallery_Picture_1.jpg" width="100%" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -330,5 +556,9 @@
     <script type="text/javascript" src="js/navbarcolor.js"></script>
     <script type="text/javascript" src="js/dot-nav.js"></script>
     <script type="text/javascript" src="js/left-button.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/zoom.js"></script>
+
+
 </body>
 </html>
