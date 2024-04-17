@@ -31,6 +31,35 @@
     background-size: 100%;
 }
 
+.robbgpre01
+{
+    background-image: url('../img/Homepage_BG1.jpg');
+}
+.robbgpre02
+{
+    background-image: url('../img/Homepage_BG2.jpg');
+}
+.robbgpreG01
+{
+    background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
+}
+.robbgpreA01
+{
+    background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
+}
+.robbgpreA02
+{
+    background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
+}
+.robbgpreTS01
+{
+    background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
+}
+.robbgpreTS02
+{
+    background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
+}
+
 .robwhitemask
 {
     background-color: rgba(255, 255, 255,0.82);
@@ -73,14 +102,14 @@ nav.scroll
         border: none !important;
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/HomepageBG1_2.jpg');
-    }
-    .robbgpre02
-    {
-        background-image: url('../img/HomepageBG2_2.jpg');
-    }
+    /*.robbgpre01
+        {
+            background-image: url('../img/HomepageBG1_2.jpg');
+        }
+        .robbgpre02
+        {
+            background-image: url('../img/HomepageBG2_2.jpg');
+        }*/
 
     .robwhitemask .title, .robgraymask .title
     {
@@ -149,13 +178,13 @@ nav.scroll
     }
 
     /*.btncookies
-                {
-                    height: 100px;
-                }
-                .btncookies .topimg
-                {
-                    left: 37%;
-                }*/
+                        {
+                            height: 100px;
+                        }
+                        .btncookies .topimg
+                        {
+                            left: 37%;
+                        }*/
 
     .robfooter
     {
@@ -201,14 +230,14 @@ nav.scroll
         border: none !important;
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/HomepageBG1_2.jpg');
-    }
-    .robbgpre02
-    {
-        background-image: url('../img/HomepageBG2_2.jpg');
-    }
+    /*.robbgpre01
+        {
+            background-image: url('../img/HomepageBG1_2.jpg');
+        }
+        .robbgpre02
+        {
+            background-image: url('../img/HomepageBG2_2.jpg');
+        }*/
 
     .robwhitemask .title, .robgraymask .title
     {
@@ -277,13 +306,13 @@ nav.scroll
     }
 
     /*.btncookies
-                {
-                    height: 100px;
-                }
-                .btncookies .topimg
-                {
-                    left: 41%;
-                }*/
+                        {
+                            height: 100px;
+                        }
+                        .btncookies .topimg
+                        {
+                            left: 41%;
+                        }*/
 
     .robfooter
     {
@@ -330,34 +359,34 @@ nav.scroll
         border: none !important;
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/Homepage_BG1.jpg');
-    }
-    .robbgpre02
-    {
-        background-image: url('../img/Homepage_BG2.jpg');
-    }
-    .robbgpreG01
-    {
-        background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
-    }
-    .robbgpreA01
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
-    }
-    .robbgpreA02
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
-    }
-    .robbgpreTS01
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
-    }
-    .robbgpreTS02
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
-    }
+    /*.robbgpre01
+        {
+            background-image: url('../img/Homepage_BG1.jpg');
+        }
+        .robbgpre02
+        {
+            background-image: url('../img/Homepage_BG2.jpg');
+        }
+        .robbgpreG01
+        {
+            background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
+        }
+        .robbgpreA01
+        {
+            background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
+        }
+        .robbgpreA02
+        {
+            background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
+        }
+        .robbgpreTS01
+        {
+            background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
+        }
+        .robbgpreTS02
+        {
+            background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
+        }*/
 
     .robwhitemask .title, .robgraymask .title
     {
@@ -426,13 +455,13 @@ nav.scroll
     }
 
     /*.btncookies
-                {
-                    height: 130px;
-                }
-                .btncookies .topimg
-                {
-                    left: 42%;
-                }*/
+                        {
+                            height: 130px;
+                        }
+                        .btncookies .topimg
+                        {
+                            left: 42%;
+                        }*/
 
     .robfooter
     {
@@ -481,34 +510,34 @@ nav.scroll
         border-color: rgb(255,255,255);
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/Homepage_BG1.jpg');
-    }
-    .robbgpre02
-    {
-        background-image: url('../img/Homepage_BG2.jpg');
-    }
-    .robbgpreG01
-    {
-        background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
-    }
-    .robbgpreA01
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
-    }
-    .robbgpreA02
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
-    }
-    .robbgpreTS01
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
-    }
-    .robbgpreTS02
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
-    }
+    /*.robbgpre01
+        {
+            background-image: url('../img/Homepage_BG1.jpg');
+        }
+        .robbgpre02
+        {
+            background-image: url('../img/Homepage_BG2.jpg');
+        }
+        .robbgpreG01
+        {
+            background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
+        }
+        .robbgpreA01
+        {
+            background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
+        }
+        .robbgpreA02
+        {
+            background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
+        }
+        .robbgpreTS01
+        {
+            background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
+        }
+        .robbgpreTS02
+        {
+            background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
+        }*/
 
     .robwhitemask .title, .robgraymask .title
     {
@@ -577,13 +606,13 @@ nav.scroll
     }
 
     /*.btncookies
-                {
-                    height: 130px;
-                }
-                .btncookies .topimg
-                {
-                    left: 44%;
-                }*/
+                        {
+                            height: 130px;
+                        }
+                        .btncookies .topimg
+                        {
+                            left: 44%;
+                        }*/
 
     .robfooter
     {
@@ -632,34 +661,34 @@ nav.scroll
         border-color: rgb(255,255,255);
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/Homepage_BG1.jpg');
-    }
-    .robbgpre02
-    {
-        background-image: url('../img/Homepage_BG2.jpg');
-    }
-    .robbgpreG01
-    {
-        background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
-    }
-    .robbgpreA01
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
-    }
-    .robbgpreA02
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
-    }
-    .robbgpreTS01
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
-    }
-    .robbgpreTS02
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
-    }
+    /*.robbgpre01
+        {
+            background-image: url('../img/Homepage_BG1.jpg');
+        }
+        .robbgpre02
+        {
+            background-image: url('../img/Homepage_BG2.jpg');
+        }
+        .robbgpreG01
+        {
+            background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
+        }
+        .robbgpreA01
+        {
+            background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
+        }
+        .robbgpreA02
+        {
+            background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
+        }
+        .robbgpreTS01
+        {
+            background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
+        }
+        .robbgpreTS02
+        {
+            background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
+        }*/
 
     .robwhitemask .title, .robgraymask .title
     {
@@ -747,13 +776,13 @@ nav.scroll
     }
 
     /*.btncookies
-                {
-                    height: 35px;
-                }
-                .btncookies .topimg
-                {
-                    left: 45%;
-                }*/
+                        {
+                            height: 35px;
+                        }
+                        .btncookies .topimg
+                        {
+                            left: 45%;
+                        }*/
 
     .robfooter
     {
