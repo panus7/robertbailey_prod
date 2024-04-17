@@ -20,24 +20,24 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="robsnavbar">
-            <ul class="navbar-nav mr-auto mx-auto text-uppercase mt-2 mt-lg-0">
-                <li class="nav-item active"><a class="nav-link" href="Home.htm">home <span class="sr-only">
+            <ul class="navbar-nav mr-auto mx-auto text-uppercase mt-2 mt-lg-0" id="nav_id">
+                <li class="nav-item active"><a class="nav-link" href="Home.htm"><div data-i18n="nav_home"></div><span class="sr-only">
                     (current)</span></a> </li>
-                <li class="nav-item"><a class="nav-link" href="#">the ultimate bespoke experience</a>
+                <li class="nav-item"><a class="nav-link" href="#"><div data-i18n="nav_ultimate"></div></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="Trunk_Show.htm">trunk show</a> </li>
-                <li class="nav-item"><a class="nav-link" href="Accessories.htm">accessories</a>
+                <li class="nav-item"><a class="nav-link" href="Trunk_Show.htm"><div data-i18n="nav_trunkshow"></div></a> </li>
+                <li class="nav-item"><a class="nav-link" href="Accessories.htm"><div data-i18n="nav_accessories"></div></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="About_us.htm">about us</a> </li>
-                <li class="nav-item"><a class="nav-link" href="Gallery.htm">gallery</a> </li>
+                <li class="nav-item"><a class="nav-link" href="About_us.htm"><div data-i18n="nav_aboutus"></div></a> </li>
+                <li class="nav-item"><a class="nav-link" href="Gallery.htm"><div data-i18n="nav_gallery"></div></a> </li>
                 <li class="nav-item dropdown"><a class="nav-link noborder" href="#" id="M_language"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">language</a>
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div data-i18n="nav_language"></div></a>
                     <div class="dropdown-menu" aria-labelledby="M_language"> 
-                        <a class="dropdown-item fontsub" href="#">English</a>
-                        <a class="dropdown-item noto-serif-jp" href="#">日本語</a>
-                        <a class="dropdown-item noto-sans-tc" href="#">中國人</a>
-                        <a class="dropdown-item noto-sans-kr" href="#">한국어</a>
-                        <a class="dropdown-item anuphan" href="#">ภาษาไทย</a>
+                        <a class="dropdown-item fontsub"   href="#" onclick="changeLanguage('en')">English</a>
+                        <a class="dropdown-item noto-serif-jp" href="#" onclick="changeLanguage('jp')">日本語</a>
+                        <a class="dropdown-item noto-sans-tc" href="#" onclick="changeLanguage('tc')">中國人</a>
+                        <a class="dropdown-item noto-sans-kr" href="#" onclick="changeLanguage('kr')">한국어</a>
+                        <a class="dropdown-item anuphan" href="#" onclick="changeLanguage('th')">ภาษาไทย</a>
                     </div>
                 </li>
             </ul>
@@ -50,23 +50,27 @@
                     <button id="myContact"  style="z-index: 100;" data-toggle="modal" data-target="#exampleModal3">
                         <img id="btnContact" alt="" src="img/Icon/btn_contact_us.png" /></button>
                     <div class="text-uppercase fontmain letter_spacing fullname">
-                            gallery
+                            <!-- gallery -->
+                            <div data-i18n="gall_fontmain"></div>
                     </div>                    
                     <div class="text-uppercase fontmain letter_spacing" style="font-size: 34px; padding-top: 300px;">
-                            robert bailey
+                            <!-- robert bailey -->
+                            <div data-i18n="gall_fontmain_l3"></div>
                     </div>
                     <div class="d-flex justify-content-center text-uppercase subbespoke">
                         <div class="subbespoke_line">
                         </div>
                         <div class="pl-2 pr-1 fontsub letter_spacing">
-                            bespoke
+                            <!-- bespoke -->
+                            <div data-i18n="gall_fontmain_l4"></div>
                         </div>
                         <div class="subbespoke_line">
                         </div>
                     </div>
                     <div class="text-uppercase fontsub letter_spacing" 
                         style="padding-top: 2px; font-size: 10px; padding-bottom: 50px;">
-                        since 1985
+                        <!-- since 1985 -->
+                        <div data-i18n="gall_fontmain_l5"></div>
                     </div>
                 </div>
             </div>
@@ -81,13 +85,15 @@
                         <img alt="" src="img/rob_gallery/Gallery_Page_Icon.png" />
                     </div>
                     <div class="fontsub letter_spacing font-italic" style="padding-top: 70px; font-size: 26px;">
-                        At Robert Bailey Bespoke we have the experience and knowledge to create absolutely
+                        <div data-i18n="gall_story"></div>
+                        <!-- At Robert Bailey Bespoke we have the experience and knowledge to create absolutely
                         amazing sartorial masterpieces that are made only for you. Every detail on each
                         garment you order is created especially for you exactly where you require it for
                         the most convenient and practical position no matter what your lifestyle. Each garment
                         is made exclusively for you with your needs at the forefront of the design. Our
                         gallery shows some of the, but not all of our creations with more added from time
-                        to time.</div>
+                        to time. -->
+                    </div>
                 </div>
             </div>
             </section>
@@ -103,7 +109,7 @@
                                 </a>
                             </div>
                             <div class="fontmain letter_spacing text-uppercase message">
-                                <a href="Single_Breasted.htm" class="alink">single breasted</a>
+                                <a href="Single_Breasted.htm" class="alink"><div data-i18n="gall_menu_1"></div></a>
                             </div>
                         </div>
                         <div class="col-auto mt-5">
@@ -114,7 +120,7 @@
                                 </a>
                             </div>
                             <div class="fontmain letter_spacing text-uppercase message">
-                                <a href="Single_Breasted.htm" class="alink">single breasted</a>
+                                <a href="Single_Breasted.htm" class="alink"><div data-i18n="gall_menu_2"></div></a>
                             </div>
                         </div>
                         <div class="col-auto mt-5">
@@ -125,7 +131,7 @@
                                 </a>
                             </div>
                             <div class="fontmain letter_spacing text-uppercase message">
-                                <a href="Single_Breasted.htm" class="alink">single breasted</a>
+                                <a href="Single_Breasted.htm" class="alink"><div data-i18n="gall_menu_3"></div></a>
                             </div>
                         </div>
                         <div class="col-auto mt-5">
@@ -135,7 +141,7 @@
                                 </a>
                             </div>
                             <div class="fontmain letter_spacing text-uppercase message">
-                                <a href="Single_Breasted.htm" class="alink">single breasted</a>
+                                <a href="Single_Breasted.htm" class="alink"><div data-i18n="gall_menu_4"></div></a>
                             </div>
                         </div>
                     </div>
@@ -149,26 +155,40 @@
         <a href="#" class="topimg">
             <img alt="Top" src="img/Icon/Button_Icon-01.png" /></a>
     </div>
+
+    <!-- FIND OUT MORE -->
     <div class="d-flex align-items-center justify-content-center robfooter">
         <div class="container-fluid text-center">
-            <div class="fontmain letter_spacing text-uppercase title">
-                find out more
+            <div class="fontmain letter_spacing text-uppercase title" style="margin-top: 40px;">
+                <!-- find out more -->
+                <div data-i18n="home_footer_l1"></div>
             </div>
             <div class="fontsub letter_spacing font-italic message">
-                Contact us today to book your initial consultation - we look forward<br />
-                to working with you on ideal garment.
+                <div data-i18n="home_footer_l2"></div>
+                <!-- Contact us today to book your initial consultation - we look forward -->
+                <br />
+                <div data-i18n="home_footer_l3"></div>
+                <!-- to working with you on ideal garment. -->
             </div>
             <div class="fontmain letter_spacing text-uppercase title robltd">
-                robert bailey bespoke ltd
+                <!-- robert bailey bespoke ltd -->
+                <div data-i18n="home_footer_office_name"></div>
             </div>
             <div class="fontsub letter_spacing font-italic message">
-                <a href="mailto:'RobertBailey@RobertBaileyBespoke.com'"> Email: robertbailey@robertbaileybespoke.com</a>
+                <a href="mailto:'RobertBailey@RobertBaileyBespoke.com'"> 
+                    <!-- Email: robertbailey@robertbaileybespoke.com -->
+                    <div data-i18n="home_footer_email"></div>
+                </a>
             </div>
             <div class="fontsub letter_spacing font-italic message">
-                <a href="tel:+447709420841">Phone: +44 7709 420 841</a>
+                <a href="tel:+447709420841">
+                    <!-- Phone: +44 7709 420 841 -->
+                    <data data-i18n="home_footer_phone"></data>
+                </a>
             </div>
             <div class="fontmain letter_spacing text-uppercase title" style="padding-top: 27px">
-                follow us
+                <!-- follow us -->
+                <div data-i18n="home_footer_followus">
             </div>
 
             <!-- followus -->
@@ -207,27 +227,27 @@
 
 
             <div class="robltd row no-gutters justify-content-center">
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_AMEX_Icon.png" alt="AMEX">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_VISA_Icon.png" alt="VISA">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_Master_Card_Icon.png" alt="Master Card">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_Union_Pay_Icon.png" alt="Union Pay">
                     </a>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto mb-2">
                     <a href="#" class="payment_serv">
                         <img src="img/Icon/Footer_Alipay_Icon.png" alt="Alipay">
                     </a>
@@ -235,7 +255,10 @@
             </div>
         </div>
     </div>
+ 
     </section>
+
+    
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -458,5 +481,6 @@
     <script type="text/javascript" src="js/dot-nav.js"></script>
     <script type="text/javascript" src="js/left-button.js"></script>
     <script type="text/javascript" src="js/zoom.js"></script>
+    <script type="text/javascript" src="js/lang.js"></script> 
 </body>
 </html>

@@ -1,16 +1,4 @@
-// function checkResolutionAndZoom() {
-//     const screenWidth = window.screen.width;
-//     console.log('screenWidth',screenWidth); 
-//     const elementToZoom = document.getElementById("main_trunk"); 
-//     // if (screenWidth <= 1440) {
-//     //     document.body.style.zoom = "75%";
-//     //   }
-//     // else if (screenWidth <= 1680) {
-//     //   document.body.style.zoom = "70%";
-//     // } 
-//   } 
-//   window.addEventListener("load", checkResolutionAndZoom);
-
+ 
   function setDynamicZoom() {
     const elementToZoom = document.getElementById("main_trunk");
     const screenWidth = window.screen.width;
