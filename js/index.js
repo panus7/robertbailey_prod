@@ -9,8 +9,8 @@ function setDynamicZoom() {
             
     ]; 
 
-    document.getElementById("myVideo").animate( frames_VidZoom_In, { duration: 6000, easing: 'ease-in' } ); 
-    document.getElementById("myVideo").style.transform = "scale(1,1)"; 
+    elmvdo.animate( frames_VidZoom_In, { duration: 6000, easing: 'ease-in' } ); 
+    elmvdo.style.transform = "scale(1,1)"; 
 }
    
   window.addEventListener("load", setDynamicZoom);
