@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; /*position: -webkit-sticky;  Safari      position: sticky;     top: 0;     z-index: 0;*/
@@ -88,10 +88,48 @@ nav.scroll
 
 .d-flex{display:-ms-flexbox!important;display:flex!important}*/
 
+/* @Hope */
+/* @media only screen and (device-width: 375px) and (device-orientation: portrait) {
+    
+    .robbgpre01
+    {
+        background-image: url('../img/Homepage_BG1_phone.jpg');
+        background-color: aqua;
+    }
+    .robbgpre02
+    {
+        background-image: url('../img/HomepageBG2_2.jpg');
+    }
+
+  }
+  
+
+@media only screen and (device-width: 375px) and (device-orientation: landscape) {
+    
+} */
+
+/* 375*710 */
+/* @Hope */
+@media (max-width: 375px)
+{ 
+ 
+    .robbgpre01
+    {
+        background-image: url('../img/Homepage_BG1_375.jpg');
+        background-size: contain;
+    }
+
+    .robbgpre02
+    {
+        background-image: url('../img/Homepage_BG2_375.jpg');
+        background-size: cover;
+    }
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px)
-{
+{ 
     .letter_spacing
     {
         letter-spacing: .2em;
@@ -102,14 +140,16 @@ nav.scroll
         border: none !important;
     }
 
-    /*.robbgpre01
-        {
-            background-image: url('../img/HomepageBG1_2.jpg');
-        }
-        .robbgpre02
-        {
-            background-image: url('../img/HomepageBG2_2.jpg');
-        }*/
+    /* @Hope+ */    
+    /* .robbgpre01
+    {
+        background-image: url('../img/Homepage_BG1_phone.jpg');
+    }
+    .robbgpre02
+    {
+        background-image: url('../img/HomepageBG2_2.jpg');
+    } */
+    /* @Hope- */
 
     .robwhitemask .title, .robgraymask .title
     {

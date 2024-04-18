@@ -1,5 +1,6 @@
 const cookieDialog = document.getElementById('cookie-dialog');
 const acceptCookieBtn = document.getElementById('accept-cookie-btn');
+const elm_p_robbgpre01_size = document.getElementById("div_robbgpre01_size");
 
 acceptCookieBtn.addEventListener('click', function() {
   
@@ -41,7 +42,37 @@ function setDynamicZoom() {
   elmtree_gall.style.zoom =  zoomFactor
   elmcountry_trunk.style.zoom =  zoomFactor 
 
+
+
+  var elm_div_robbgpre01 = document.getElementById("div_robbgpre01");  
+  var rect = elm_div_robbgpre01.getBoundingClientRect();
+  var width = rect.width;
+  var height = rect.height;
+  // elm_p_robbgpre01_size.textContent = "div_robbgpre01> (Width: " + width + " px, Height:" + height + " px )";
+
 }
  
 window.addEventListener("load", setDynamicZoom);
 window.addEventListener("resize", setDynamicZoom)
+
+
+// function isIOS() {
+//   return /iPad|iPhone|iPod/.test(navigator.userAgent);
+// }
+
+// function scrollFunction() {
+
+//   if (isIOS()) {
+//     elm_p_robbgpre01_size.textContent = navigator.userAgent;
+//     var parallaxElement = document.querySelector(".bgfixed");
+//     var scrollY = window.scrollY;
+
+//     // Adjust the scrolling speed as needed (higher value for slower movement)
+//     var speed = 0.5;
+//     var newPosition = -(scrollY * speed);
+
+//     parallaxElement.style.transform = `translateY(${newPosition}px)`;
+//   } 
+// }
+
+// window.addEventListener("scroll", scrollFunction);
