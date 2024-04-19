@@ -175,20 +175,20 @@
                 <div data-i18n="home_footer_office_name"></div>
             </div>
             <div class="fontsub letter_spacing font-italic message">
-                <a href="mailto:'RobertBailey@RobertBaileyBespoke.com'"> 
+                <a href="mailto:'RobertBailey@RobertBaileyBespoke.com'" class="alink"> 
                     <!-- Email: robertbailey@robertbaileybespoke.com -->
                     <div data-i18n="home_footer_email"></div>
                 </a>
             </div>
             <div class="fontsub letter_spacing font-italic message">
-                <a href="tel:+447709420841">
+                <a href="tel:+447709420841" class="alink">
                     <!-- Phone: +44 7709 420 841 -->
                     <data data-i18n="home_footer_phone"></data>
                 </a>
             </div>
             <div class="fontmain letter_spacing text-uppercase title" style="padding-top: 27px">
                 <!-- follow us -->
-                <div data-i18n="home_footer_followus">
+                <div data-i18n="home_footer_followus"></div>
             </div>
 
             <!-- followus -->
@@ -221,6 +221,12 @@
                     <a class="hover_switch" href="https://wa.me/17709420841" target="_blank">
                         <img src="img/Icon/Whatsapp_Normal-01.jpg" class="img_top" alt="Whatsapp">
                         <img src="img/Icon/Whatsapp_Active-01.jpg" alt="Whatsapp">
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a class="hover_switch" href="https://www.youtube.com/@robertbaileybespoke7742" target="_blank">
+                        <img src="img/Icon/Youtube_Icon_Normal-01.png" class="img_top" alt="Youtube">
+                        <img src="img/Icon/Youtube_Icon_Active-01.png" alt="Youtube">
                     </a>
                 </div>
             </div>
@@ -257,8 +263,6 @@
     </div>
  
     </section>
-
-    
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -310,7 +314,7 @@
                 <div class="row no-gutters">
                     <div class="col-auto">
                         <div class="nav flex-column navimg-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"
-                            style="padding: 30px 0px 0px 25px;">
+                            style="padding: 20px 0px 0px 25px;">
                             <a class="linebutton nav-link active" href="#" id="line-tab" data-toggle="pill" data-target="#line-content"
                                 type="button" role="tab" aria-controls="line-content" aria-selected="true"></a>
                             <a class="IGbutton nav-link" id="IG-tab" data-toggle="pill" data-target="#IG-content"
@@ -321,11 +325,14 @@
                                 type="button" role="tab" aria-controls="facebook-content" aria-selected="false">
                             </a><a class="whatsappbutton nav-link" id="whatsapp-tab" data-toggle="pill" data-target="#whatsapp-content"
                                 type="button" role="tab" aria-controls="whatsapp-content" aria-selected="false">
+                            </a><a class="phonebutton nav-link" id="phone-tap" data-toggle="pill" data-target="#phone-content"
+                                type="button" role="tab" aria-controls="phone-content" aria-selected="false">
                             </a><a class="emailbutton nav-link" id="email-tab" data-toggle="pill" data-target="#email-content"
                                 type="button" role="tab" aria-controls="email-content" aria-selected="false">
                             </a>
                         </div>
                     </div>
+                    <!-- modal-contactus -->
                     <div class="col">
                         <div class="modal-header noneborder">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -335,45 +342,61 @@
                         <div class="tab-content text-center" style="padding: 0px 20px 40px 0px;" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="line-content" role="tabpanel" aria-labelledby="line-tab">
                                 <div>
-                                    <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
+                                    <img src="img/qr/qr_line.jpg" alt="Line ID" width="150px" height="auto" />
                                 </div>
                                 <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
                                     LINE ID: rob_bailey</div>
                             </div>
                             <div class="tab-pane fade" id="IG-content" role="tabpanel" aria-labelledby="IG-tab">
                                 <div>
-                                    <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
+                                    <img src="img/qr/qr_ig.png" alt="Instagram ID" width="150px" height="auto" />
                                 </div>
                                 <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
-                                    IG ID: rob_bailey</div>
+                                    IG: <a href="https://www.instagram.com/robertbaileybespoke" target="_blank" class="alink">
+                                        robertbaileybespoke</a>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="weechat-content" role="tabpanel" aria-labelledby="weechat-tab">
                                 <div>
-                                    <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
+                                    <img src="img/qr/qr_wechat.png" alt="Wechat ID" width="150px" height="auto" />
                                 </div>
                                 <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
-                                    Weechat ID: rob_bailey</div>
+                                    Weechat ID: RobertBailey
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="facebook-content" role="tabpanel" aria-labelledby="facebook-tab">
                                 <div>
-                                    <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
+                                    <img src="img/qr/qr_fb.png" alt="Facebook ID" width="150px" height="auto" />
                                 </div>
                                 <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
-                                    Facebook ID: rob_bailey</div>
+                                    Facebook: <a href="https://www.facebook.com/robertbaileybespoke" target="_blank"
+                                        class="alink">robertbailey</a>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="whatsapp-content" role="tabpanel" aria-labelledby="whatsapp-tab">
                                 <div>
-                                    <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
+                                    <img src="img/qr/qr_wapp.png" alt="Whatsapp ID" width="150px" height="auto" />
                                 </div>
                                 <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
-                                    Whatsapp ID: rob_bailey</div>
+                                    Whatsapp ID: <a href="https://wa.me/17709420841" target="_blank" class="alink">+447709420841</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="phone-content" role="tabpanel" aria-labelledby="phone-tab">
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
+                                    Phone Number:
+                                </div>
+                                <div class="fontsub letter_spacing font-italic" style="font-size: 18px; padding-top: 20px;">
+                                    <a href="tel:+447709420841" class="alink">+44 7709 420 841</a>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="email-content" role="tabpanel" aria-labelledby="email-tab">
                                 <div>
-                                    <img src="img/Icon/lineid.jpg" alt="Line ID" width="150px" height="auto" />
+                                    <img src="img/qr/qr_mail.png" alt="Line ID" width="150px" height="auto" />
                                 </div>
                                 <div class="fontsub letter_spacing font-italic" style="font-size: 11px; padding-top: 20px;">
-                                    Email Address: rob_bailey</div>
+                                    Email: <a href="mailto:'RobertBailey@RobertBaileyBespoke.com'" class="alink">RobertBailey
+                                        @ RobertBaileyBespoke.com</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -445,8 +468,7 @@
                     <div style="padding-top: 35px;">
                         <button type="button" class="btn btn-light font-italic" style="padding: 15px 10px 10px 10px;
                             background-color: rgba(8, 29, 84, 0.28); color: rgb(8, 29, 84); font-size: 18px;
-                            letter-spacing: .15em;"
-                            onclick="location.href='mailto:RobertBailey@RobertBaileyBespoke.com?subject=Appointment%20Subject&body=Appointment'">
+                            letter-spacing: .15em;" onclick="location.href='mailto:RobertBailey@RobertBaileyBespoke.com?subject=Appointment%20Subject&body=Appointment'">
                             Book an Appointment</button>
                     </div>
                 </div>
@@ -463,7 +485,7 @@
                     </button>
                 </div>
                 <div class="text-center" style="padding: 0px 30px 40px 30px;">
-                        <img alt="" src="img/rob_gallery/Gallery_Picture_1.jpg" width="100%" />
+                    <img alt="" src="img/rob_gallery/Gallery_Picture_1.jpg" width="100%" />
                 </div>
             </div>
         </div>
@@ -481,6 +503,6 @@
     <script type="text/javascript" src="js/dot-nav.js"></script>
     <script type="text/javascript" src="js/left-button.js"></script>
     <script type="text/javascript" src="js/zoom.js"></script>
-    <script type="text/javascript" src="js/lang.js"></script> 
+    <script type="text/javascript" src="js/lang.js"></script>
 </body>
 </html>
