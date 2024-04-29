@@ -1,4 +1,5 @@
 ﻿/*****background*****/
+/*ultimate*/
 .robbgpreULmain
 {
     background-image: url('../img/rob_ultimate/ultimate_picture01.jpg');
@@ -44,6 +45,32 @@
     background-image: url('../img/rob_ultimate/ultimate_picture11.jpg');
 }
 
+/*about us*/
+.robbgpreAUmain
+{
+    background-image: url('../img/rob_about/about_picture00.jpg');
+}
+.robbgpreAU01
+{
+    background-image: url('../img/rob_about/about_picture01.jpg');
+}
+.robbgpreAU02
+{
+    background-image: url('../img/rob_about/about_picture02.jpg');
+}
+.robbgpreAU03
+{
+    background-image: url('../img/rob_about/about_picture03.jpg');
+}
+.robbgpreAU04
+{
+    background-image: url('../img/rob_about/about_picture04.jpg');
+}
+.robbgpreAU05
+{
+    background-image: url('../img/rob_about/about_picture05.jpg');
+}
+
 .robwhitemask_ult
 {
     background-color: rgba(255, 255, 255,0.96);
@@ -64,6 +91,11 @@
 {
     font-size: 34px;
     padding-top: 70px;
+}
+.detailcontent .subdetail div
+{
+    text-indent: 150px;
+    padding: 30px 0px;
 }
 
 .robgraymask_ult
