@@ -15,6 +15,8 @@ async function fetchLanguageData(lang) {
     document.querySelectorAll('[data-i18n]').forEach((element) => {
       const key = element.getAttribute('data-i18n');
 
+     
+
     //   var data = langData[key];
     //   var data = undefined;
     //   try {
@@ -34,7 +36,45 @@ async function fetchLanguageData(lang) {
       
     });
   }
-  
+
+
+  function changLangChangeImg(currentLanguage) {
+    console.log("currentLanguage : ", currentLanguage);
+    if (currentLanguage === "jp") {
+      changeImage_contact("img/Icon/btn_contact_us.png");
+      changeImage_top("img/Icon/Button_Icon-01.png");
+    } else if (currentLanguage === "kr") {
+      changeImage_contact("img/Icon/btn_contact_us.png");
+      changeImage_top("img/Icon/Button_Icon-01.png");
+    } else if (currentLanguage === "tc") {
+      changeImage_contact("img/Icon/btn_contact_us.png");
+      changeImage_top("img/Icon/Button_Icon-ch.png");
+    } else if (currentLanguage === "th") {
+      changeImage_contact("img/Icon/btn_contact_us.png");
+      changeImage_top("img/Icon/Button_Icon-01.png");
+    } else {
+      changeImage_contact("img/Icon/btn_contact_us.png");
+      changeImage_top("img/Icon/Button_Icon-01.png");
+    }
+  }
+
+  function changeImage_contact(newImageSrc) {
+    const imageElement = document.getElementById("btnContact");
+    if (imageElement) {
+      imageElement.src = newImageSrc;
+    }
+  }
+
+  function changeImage_top(newImageSrc) {
+    const imageElement = document.getElementById("btnTop");
+    if (imageElement) {
+      imageElement.src = newImageSrc;
+    }
+  }
+
+
+  // <img alt="Top" src="img/Icon/Button_Icon-01.png">
+ 
   // Function to change language
   async function changeLanguage(lang) {
     await setLanguagePreference(lang);
@@ -43,6 +83,7 @@ async function fetchLanguageData(lang) {
     const langDataDefault = await fetchLanguageData('en');
 
     updateContent(langData,langDataDefault);
+    changLangChangeImg(lang);
     //
     toggleArabicStylesheet(lang); // Toggle Arabic stylesheet
   }
@@ -69,6 +110,9 @@ async function fetchLanguageData(lang) {
     const langData = await fetchLanguageData(userPreferredLanguage);
     const langDataDefault = await fetchLanguageData('en');
     updateContent(langData,langDataDefault);
+    changLangChangeImg(userPreferredLanguage);
     toggleArabicStylesheet(userPreferredLanguage);
   });
+
+  
   
