@@ -47,7 +47,7 @@ async function fetchLanguageData(lang) {
       changeImage_contact("img/Icon/btn_contact_us.png");
       changeImage_top("img/Icon/Button_Icon-01.png");
     } else if (currentLanguage === "tc") {
-      changeImage_contact("img/Icon/btn_contact_us.png");
+      changeImage_contact("img/Icon/btn_contact_us_ch.png");
       changeImage_top("img/Icon/Button_Icon-ch.png");
     } else if (currentLanguage === "th") {
       changeImage_contact("img/Icon/btn_contact_us.png");
