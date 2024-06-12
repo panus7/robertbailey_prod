@@ -9,7 +9,7 @@ function checkResolutionAndZoom() {
   // const zoomThresholds = [1000,1200,1400,1600];
   // const zoomFactors = ['70%','80%','90%','100%']; 
 
-  const zoomThresholds = [900, 1000, 1200, 1400, 1600];
+  const zoomThresholds = [400, 820, 900, 1200, 1600];
   const zoomFactors = ['60%', '70%', '80%', '90%', '100%'];
 
   let zoomFactor = '100%';

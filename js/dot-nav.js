@@ -55,9 +55,9 @@ const dotNav = (elem, easing) => {
             for (let i = 0; i < allElements.length; i++) {  //  loop through the sections
                 let viewportOffset = allElements[i].getBoundingClientRect();  //  returns the size of an element and its position relative to the viewport
                 let top = viewportOffset.top;  //  get the offset top
-                if(top < windowHeight){  //  if the top offset is less than the window height
+                if (top < windowHeight) {  //  if the top offset is less than the window height
                     allElements[i].classList.add('in-viewport');  //  add the class
-                } else{
+                } else {
                     allElements[i].classList.remove('in-viewport');  //  remove the class
                 }
             }
@@ -87,16 +87,19 @@ const dotNav = (elem, easing) => {
             dotCreate.classList.add('dots');
             dotCreate.href = '#';
             dotCreate.setAttribute('data-sec', i);
-            nav.appendChild(dotCreate);
+            if (nav)
+                nav.appendChild(dotCreate);
         }
     }
     buildNav();
 
     //  nav position
+    if (document.getElementById('dot-nav')?.clientHeight) {
+        let navHeight = document.getElementById('dot-nav')?.clientHeight;
+        let hNavHeight = navHeight / 2;
+        document.getElementById('dot-nav').style.top = 'calc(50% - ' + hNavHeight + 'px)';
+    }
 
-    let navHeight = document.getElementById('dot-nav').clientHeight;
-    let hNavHeight = navHeight / 2;
-    document.getElementById('dot-nav').style.top = 'calc(50% - ' + hNavHeight + 'px)';
 
     //  onscroll
 
@@ -106,12 +109,16 @@ const dotNav = (elem, easing) => {
         visNum = allVis.length;
         let a = visNum - 1;
         for (let i = 0; i < allSecs.length; i++) {
-            allDots[i].classList.remove('active');
+            if (allDots[i]) {
+                allDots[i].classList.remove('active');
+            }
         }
-        document.getElementById('dot-' + a).classList.add('active');
+        if (document.getElementById('dot-' + a)) {
+            document.getElementById('dot-' + a).classList.add('active');
+        }
     }
     dotActive();
-    window.onscroll = function(){ dotActive(); };
+    window.onscroll = function () { dotActive(); };
 
     //  click stuff
 
