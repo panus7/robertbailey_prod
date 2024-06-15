@@ -8,14 +8,14 @@ function checkResolutionAndZoom() {
   //2024-06-11
   // const zoomThresholds = [1000,1200,1400,1600];
   // const zoomFactors = ['70%','80%','90%','100%']; 
-  const elm_idzoom = document.getElementById("idzoom");
+  // const elm_idzoom = document.getElementById("idzoom");
 
   if (/iPhone/.test(navigator.userAgent)) {
     // Set the initial zoom level based on the screen width
     const screenWidth = screen.width;
     const zoomLevel = screenWidth / 375;
     document.documentElement.style.zoom = zoomLevel;
-    elm_idzoom.textContent = 'iphone zoom level : ' + zoomLevel + ' screen ' + screenWidth;
+    // elm_idzoom.textContent = 'iphone zoom level : ' + zoomLevel + ' screen ' + screenWidth;
   }
   else {
 
@@ -32,7 +32,7 @@ function checkResolutionAndZoom() {
       }
     }
     document.body.style.zoom = zoomFactor;
-    elm_idzoom.textContent = 'zoom : ' + zoomFactor + ' screen ' + screenWidth;
+    // elm_idzoom.textContent = 'zoom : ' + zoomFactor + ' screen ' + screenWidth;
 
     if (screenWidth > 800 && screenWidth < 1300) {
       const navItems = document.getElementsByClassName('nav-link');
