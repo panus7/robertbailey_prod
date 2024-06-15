@@ -150,7 +150,8 @@ nav.scroll
     }
 
     .letter_spacing {
-        letter-spacing: .2em;
+        /* letter-spacing: .2em; */
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link {
@@ -277,7 +278,7 @@ nav.scroll
 
 
     .letter_spacing {
-        letter-spacing: .2em;
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link {
@@ -401,7 +402,7 @@ nav.scroll
 
 
     .letter_spacing {
-        letter-spacing: .2em;
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link {
@@ -542,7 +543,7 @@ nav.scroll
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .letter_spacing {
-        letter-spacing: .2em;
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link {
@@ -685,7 +686,7 @@ nav.scroll
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .letter_spacing {
-        letter-spacing: .2em;
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link {
@@ -852,7 +853,8 @@ nav.scroll
     padding: 3px 30px !important;
     color: rgb(255, 255, 255);
     /*font-weight: 500;     line-height: 24px;     text-align: center;*/
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 14px;
     transition: all 0.3s;
 }
 
