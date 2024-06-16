@@ -1014,10 +1014,36 @@ nav#dot-nav a.active {
     opacity: 0;
 }
 
-.imghover_switch img {
-    margin: 5px;
-    width: 45px;
-    height: 45px;
+.imghover_switch img
+{
+    width: 100%;
+    height: auto;
+}
+
+/********rob youtube*********/
+.rob_corner
+{
+    outline: none !important;
+    border-radius: 39px;
+    -moz-border-radius: 39px;
+    -webkit-border-radius: 39px;
+    border: none;
+}
+.rob_bgyoutube01
+{
+    background-image: url('../img/rob_youtube/rob_youtube_1.png');
+}
+.rob_bgyoutube02
+{
+    background-image: url('../img/rob_youtube/rob_youtube_2.png');
+}
+.rob_bgyoutube03
+{
+    background-image: url('../img/rob_youtube/rob_youtube_3.png');
+}
+.rob_bgyoutube04
+{
+    background-image: url('../img/rob_youtube/rob_youtube_4.png');
 }
 
 .navimg-pills {
