@@ -162,13 +162,13 @@ nav.scroll
 
     /* @Hope+ */
     /* .robbgpre01
-                                    {
-                                        background-image: url('../img/Homepage_BG1_phone.jpg');
-                                    }
-                                    .robbgpre02
-                                    {
-                                        background-image: url('../img/HomepageBG2_2.jpg');
-                                    } */
+                                        {
+                                            background-image: url('../img/Homepage_BG1_phone.jpg');
+                                        }
+                                        .robbgpre02
+                                        {
+                                            background-image: url('../img/HomepageBG2_2.jpg');
+                                        } */
     /* @Hope- */
 
     .robbgpre01
@@ -218,6 +218,18 @@ nav.scroll
     {
         font-size: 12px;
         margin-top: 30px;
+    }
+    
+    .accessories_if img
+    {
+        width: 82px;
+        height: auto;
+    }
+    
+    .gallery_if img
+    {
+        width: 86px;
+        height: auto;
     }
 
     .robmain_pre .fullname
@@ -301,7 +313,7 @@ nav.scroll
         width: 80px;
         height: 80px;
     }
-    
+
     .robfooter
     {
         min-height: 400px;
@@ -393,6 +405,18 @@ nav.scroll
     {
         font-size: 16px;
         margin-top: 60px;
+    }
+    
+    .accessories_if img
+    {
+        width: 108px;
+        height: auto;
+    }
+    
+    .gallery_if img
+    {
+        width: 113px;
+        height: auto;
     }
 
     .robmain_pre .fullname
@@ -569,6 +593,18 @@ nav.scroll
     {
         font-size: 20px;
         margin-top: 70px;
+    }
+    
+    .accessories_if img
+    {
+        width: 138px;
+        height: auto;
+    }
+    
+    .gallery_if img
+    {
+        width: 145px;
+        height: auto;
     }
 
     .robmain_pre .fullname
@@ -748,6 +784,18 @@ nav.scroll
         font-size: 22px;
         margin-top: 70px;
     }
+    
+    .accessories_if img
+    {
+        width: 166px;
+        height: auto;
+    }
+    
+    .gallery_if img
+    {
+        width: 174px;
+        height: auto;
+    }
 
     .robmain_pre .fullname
     {
@@ -925,6 +973,18 @@ nav.scroll
     {
         font-size: 26px;
         margin-top: 50px;
+    }
+    
+    .accessories_if img
+    {
+        width: 234px;
+        height: auto;
+    }
+    
+    .gallery_if img
+    {
+        width: 245px;
+        height: auto;
     }
 
     .robmain_pre .fullname
