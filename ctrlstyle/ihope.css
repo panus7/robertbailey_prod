@@ -1,38 +1,40 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Noto+Sans+KR&family=Noto+Sans+TC&family=Noto+Serif+JP&display=swap')
 
 /***********font language***********/
-.anuphan2 {
-    font-family: "Anuphan", sans-serif;
+.anuphan2
+{
+    font-family: "Anuphan" , sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
-.anuphan {
-    font-family: "Anuphan", sans-serif;
+.anuphan
+{
+    font-family: "Anuphan" , sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
-.noto-serif-jp {
-    font-family: "Noto Serif JP", serif;
+.noto-serif-jp
+{
+    font-family: "Noto Serif JP" , serif;
     font-weight: 400;
     font-style: normal;
 }
-
-.noto-sans-kr {
-    font-family: "Noto Sans KR", sans-serif;
+.noto-sans-kr
+{
+    font-family: "Noto Sans KR" , sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
-.noto-sans-tc {
-    font-family: "Noto Sans TC", sans-serif;
+.noto-sans-tc
+{
+    font-family: "Noto Sans TC" , sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 /***********affect image***********/
-.eff_img_zoomin {
+.eff_img_zoomin
+{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,29 +45,31 @@
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-
-.eff_img_zoomin {
+.eff_img_zoomin
+{
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
 }
-
-.eff_img_zoomin:hover {
+.eff_img_zoomin:hover
+{
     -webkit-transform: translateX(-50%) translateY(-50%) scale(1.6);
     -moz-transform: translateX(-50%) translateY(-50%) scale(1.6);
     -o-transform: translateX(-50%) translateY(-50%) scale(1.6);
     transform: translateX(-50%) translateY(-50%) scale(1.6);
 }
 
-.eff_img_frame_home {
+.eff_img_frame_home
+{
     position: relative;
     height: 619px;
     width: 416px;
     overflow: hidden;
 }
 
-.eff_img_frame_gall {
+.eff_img_frame_gall
+{
     position: relative;
     height: 400px;
     width: 600px;
@@ -73,61 +77,62 @@
 }
 
 /*****Accessories*****/
-.eff_img_frame_acc {
+.eff_img_frame_acc
+{
     position: relative;
     width: 100%;
     height: 660px;
     overflow: hidden;
 }
 
-.productbox {
+.productbox
+{
     background-color: rgba(255, 255, 255, 0.75);
     padding: 15px;
     height: 100%;
 }
-
-.productbox .prod_detail {
+.productbox .prod_detail
+{
     padding: 20px 0px 10px 0px;
-    font-size: 22px;
-    line-height: 28px;
     min-height: 420px;
 }
-
-.prod_detail .title {
+.prod_detail .title
+{
     padding: 30px 0px;
-    font-size: 24px;
 }
-
-.prod_detail .name {
+.prod_detail .name
+{
     padding-bottom: 7px;
 }
 
 /*****Sub Gallery*****/
-.gallpresentbox .imgpresent {
+.gallpresentbox .imgpresent
+{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 18px;
     background-color: #1C2C4F;
 }
-
-.gallpresentbox .fullheight {
+.gallpresentbox .fullheight
+{
     /*height: 828px;*/
     height: 908px;
 }
-
-.gallpresentbox .halfheight {
-    /*height: 414px;*/
-    height: 436px;
+.gallpresentbox .halfheight
+{
+    height: 414px;
 }
-
-.gallpresentbox img {
+.gallpresentbox img
+{
     width: 100%;
     height: 100%;
 }
 
 
+
 /**********contact button**********/
-#myContact {
+#myContact
+{
     position: fixed;
     top: 50%;
     left: 0;
@@ -139,42 +144,79 @@
     z-index: 1;
 }
 
-#btnContact {
+#btnContact
+{
     /*width: 70%;*/
     height: 70%;
 }
 
-@media (max-width: 375px) {
-    #btnContact {
-        width: 30%;
-        height: 50%;
-    }
- 
-    .productbox .prod_detail {
-        padding: 20px 0px 10px 0px;
-        font-size: 18px;
-    }
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{
+    .productbox .prod_detail
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .prod_detail .title
+    {
+        font-size: 16px;
+    }
 }
 
-@media (min-width: 376px) and (max-width: 767.98px) {
-    #btnContact {
-        width: 30%;
-        height: 50%;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .productbox .prod_detail
+    {
+        font-size: 16px;
+        line-height: 22px;
     }
-
-
-    .productbox .prod_detail {
-        padding: 20px 0px 10px 0px;
+    .prod_detail .title
+    {
         font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .productbox .prod_detail
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .prod_detail .title
+    {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .productbox .prod_detail
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .prod_detail .title
+    {
+        font-size: 22px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+    .productbox .prod_detail
+    {
+        font-size: 22px;
         line-height: 28px;
-        min-height: 420px;
     }
-
+    .prod_detail .title
+    {
+        font-size: 24px;
+    }
 }
-
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-@media (min-width: 1200px) {}
