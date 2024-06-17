@@ -120,7 +120,8 @@
 }
 .gallpresentbox .halfheight
 {
-    height: 414px;
+    /*height: 414px;*/
+    height: 436px;
 }
 .gallpresentbox img
 {
