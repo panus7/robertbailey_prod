@@ -84,7 +84,6 @@
 }
 .detailcontent .subdetail div
 {
-    text-indent: 150px;
     padding: 30px 0px;
 }
 
@@ -117,6 +116,11 @@
         font-size: 14px;
         padding-top: 70px;
     }
+    .detailcontent .subdetail div
+    {
+        font-size: 14px;
+        text-indent: 60px;
+    }
     .detailcontent .ult_if_main img
     {
         width: 85px;
@@ -125,6 +129,11 @@
     .detailcontent img
     {
         width: 91px;
+        height: auto;
+    }
+    .about_if_main img
+    {
+        width: 144px;
         height: auto;
     }
 }
@@ -148,6 +157,11 @@
         font-size: 16px;
         padding-top: 70px;
     }
+    .detailcontent .subdetail div
+    {
+        font-size: 16px;
+        text-indent: 100px;
+    }
     .detailcontent .ult_if_main img
     {
         width: 113px;
@@ -156,6 +170,11 @@
     .detailcontent img
     {
         width: 138px;
+        height: auto;
+    }
+    .about_if_main img
+    {
+        width: 190px;
         height: auto;
     }
 }
@@ -179,6 +198,11 @@
         font-size: 20px;
         padding-top: 70px;
     }
+    .detailcontent .subdetail div
+    {
+        font-size: 20px;
+        text-indent: 120px;
+    }
     .detailcontent .ult_if_main img
     {
         width: 145px;
@@ -187,6 +211,11 @@
     .detailcontent img
     {
         width: 181px;
+        height: auto;
+    }
+    .about_if_main img
+    {
+        width: 244px;
         height: auto;
     }
 }
@@ -210,6 +239,11 @@
         font-size: 26px;
         padding-top: 70px;
     }
+    .detailcontent .subdetail div
+    {
+        font-size: 26px;
+        text-indent: 130px;
+    }
     .detailcontent .ult_if_main img
     {
         width: 176px;
@@ -218,6 +252,11 @@
     .detailcontent img
     {
         width: 236px;
+        height: auto;
+    }
+    .about_if_main img
+    {
+        width: 294px;
         height: auto;
     }
 }
@@ -241,6 +280,11 @@
         font-size: 31px;
         padding-top: 70px;
     }
+    .detailcontent .subdetail div
+    {
+        font-size: 31px;
+        text-indent: 150px;
+    }
     .detailcontent .ult_if_main img
     {
         width: 275px;
@@ -249,6 +293,11 @@
     .detailcontent img
     {
         width: 402px;
+        height: auto;
+    }
+    .about_if_main img
+    {
+        width: 458px;
         height: auto;
     }
 }
