@@ -36,6 +36,12 @@ body {
     -o-background-size: cover;
     background-size: cover;
     /*position: -webkit-sticky;  Safari      position: sticky;     top: 0;     z-index: 0;*/
+
+    /* @Hope for iphone */
+    @media only screen and (max-width: 575px) {
+        background-attachment: scroll;
+
+    }
 }
 
 .bgnomal {
