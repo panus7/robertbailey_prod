@@ -31,8 +31,12 @@ function setDynamicZoom() {
   // const zoomThresholds = [1680,1440,1280,111,600];
   //  const zoomFactors = ['40%','60%','70%','80%','90%'];
 
-  const zoomThresholds = [600, 800, 1000];
-  const zoomFactors = ['40%', '80%', '90%'];
+  //orignial
+  // const zoomThresholds = [600, 800, 1000];
+  // const zoomFactors = ['40%', '80%', '90%'];
+
+  const zoomThresholds = [600, 800, 1500];
+  const zoomFactors = ['40%', '60%', '80%'];
 
   let zoomFactor = '100%';
   for (let i = 0; i < zoomThresholds.length; i++) {
