@@ -19,13 +19,23 @@ function checkResolutionAndZoom() {
   }
   else {
 
-
     const zoomThresholds = [400, 820, 900, 1200, 1600];
-    const zoomFactors = ['60%', '70%', '80%', '90%', '100%'];
+    const zoomFactors = ['50%', '60%', '70%', '75%', '100%'];
+
+    //const zoomThresholds = [400, 820, 900, 1200, 1600];
+    //const zoomFactors = ['60%', '70%', '80%', '90%', '100%'];
 
     let zoomFactor = '100%';
+    console.log('main screenWidth', screenWidth)
+
     for (let i = 0; i < zoomThresholds.length; i++) {
+
+      // console.log('main zoomThresholds[i]', zoomThresholds[i])
+
       if (screenWidth <= zoomThresholds[i]) {
+
+        console.log('main zoomThresholds[i] condition', zoomThresholds[i])
+
         zoomFactor = zoomFactors[i];
         console.log('main zoomFactor', zoomFactor)
         break;
@@ -53,9 +63,6 @@ window.addEventListener("load", checkResolutionAndZoom);
 
 
 function setfooterDynamicZoom() {
-
-
-
 
   const elm_footer_card = document.getElementById("footer_card");
   const screenWidth = window.screen.width;

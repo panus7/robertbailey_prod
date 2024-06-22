@@ -38,11 +38,23 @@ body {
     /*position: -webkit-sticky;  Safari      position: sticky;     top: 0;     z-index: 0;*/
 
     /* @Hope for iphone */
-    @media only screen and (max-width: 575px) {
-        background-attachment: scroll;
+    /* @media only screen and (max-width: 575px) {
+        background-attachment: scroll; 
+    } */
 
+    @supports (-webkit-touch-callout: none) {
+        background-attachment: scroll;
     }
 }
+
+
+/* @supports (-webkit-touch-callout: none) {
+  CSS specific to iOS devices 
+}
+
+@supports not (-webkit-touch-callout: none) {
+  CSS for other than iOS devices 
+} */
 
 .bgnomal {
     background-repeat: no-repeat;
@@ -151,8 +163,18 @@ nav.scroll
 
 
 /* ต้องมีอันนี้ไม่งั้น iphone 12 mini ดูไม่ได้ */
+.headerbox {
+    z-index: 100;
+    margin-top: 200px;
+    padding-top: 200px;
+}
 
 @media (max-width: 375px) {
+
+    .headerbox {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
 
     .fontsub {
         font-size: 18px
@@ -191,6 +213,12 @@ nav.scroll
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+    .headerbox {
+        margin-top: 60px;
+        padding-top: 60px;
+    }
+
     .letter_spacing {
         letter-spacing: .2em;
     }

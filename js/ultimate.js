@@ -42,7 +42,6 @@ window.addEventListener("resize", setDynamicZoom)
 
 
 
-
 // const cookieDialog = document.getElementById('cookie-dialog');
 // const acceptCookieBtn = document.getElementById('accept-cookie-btn');
 // const elm_p_robbgpre01_size = document.getElementById("div_robbgpre01_size");
