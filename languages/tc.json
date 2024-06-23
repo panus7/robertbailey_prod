@@ -5,7 +5,7 @@
     "nav_home":"首页",
     "nav_ultimate":"极致的定制体验",
     "nav_trunkshow":"定制巡展",
-    "nav_accessories":"配饰",
+    "nav_accessories":"配件",
     "nav_aboutus":"关于我们",
     "nav_gallery":"样式图册",
     "nav_language":"语言",
@@ -38,12 +38,12 @@
     "accessories_story_head":"背带",
     "accessories_story_detail":"我们非常自豪能够成为 Albert Thurston 背带的品牌代理。您可以通过我们的网站订购, 或在我们的定制巡展期间现场下单。任何特殊的定制要求, 请直接通过电子邮件联系我们。(Albert Thurston 已成为男士配饰和背带的代名词。在过去的两个世纪里, 世界各国的国王、王子、总统和成功企业家都曾使用过这个品牌）罗伯特·拜利定制背带系列有以下所示颜色可供选择, 您也可以单独订购其他颜色。我们只提供适配于带扣长裤的皮制背带（该系列不提供夹式配饰）。",
 
-    "accessories_product_name":"Royal Blue Boxcloth Braces",
-    "accessories_product_detail":"Pure wool boxcloth woven in the Yorkshire Dales has been used by Albert Thurston to make braces since 1820, and this classic style is 38mm or 1 1/2 inch wide, complemented with hand-polished brass levers, black goatskin leather ends and featuring an X back.",
+    "accessories_product_name":"宝蓝色厚呢背带",
+    "accessories_product_detail":"自 1820 年以来, Albert Thurston一直使用在约克郡山谷编织的纯羊毛厚呢来制作背带, 这种经典款式的宽度为38 毫米或1.5英寸, X型, 配有镍制配件、黑色山羊皮制背带扣。",
     "accessories_product_colour":"Colour : Navy Blue",
 
-    "accessories_product2_name":"Green Boxcloth Braces",
-    "accessories_product2_detail":"38mm or 1 1/2 inch wide, complemented with hand-polished brass levers and tan goatskin leather ends and featuring an X back.",
+    "accessories_product2_name":"绿色厚呢背带",
+    "accessories_product2_detail":"X型, 3.8厘米或1.5英寸宽，配有手工抛光的黄铜夹和棕褐色山羊皮制背带扣。",
     "accessories_product2_colour":"Colour : Navy Blue",
 
     "accessories_product3_name":"藏蓝色厚呢背带",
@@ -51,11 +51,11 @@
     "accessories_product3_colour":"Colour : Navy Blue",
     
     "accessories_product4_name":"酒红色厚呢背带",
-    "accessories_product4_detail":"3.8厘米或1.5英寸宽纯羊毛厚呢背带,配有手工抛光的镀金黄铜配件、棕褐色皮革背带扣,X型。",
+    "accessories_product4_detail":"3.8厘米或1.5英寸宽纯羊毛厚呢背带, 配有手工抛光的镀金黄铜配件、棕褐色皮革背带扣, X型。",
     "accessories_product4_colour":"Colour : Navy Blue",
 
-    "accessories_product5_name":"White moiré braces",
-    "accessories_product5_detail":"40mm wide white moiré ribbon braces with gilt brass hand-polished fittings, white leather trim (20) and white leather runner ends. Ideal for formal black-tie & white-tie social occasions",
+    "accessories_product5_name":"白色云纹背带",
+    "accessories_product5_detail":"4厘米宽的白色云纹丝制背带, 配有手工抛光的镀金黄铜配件, 白色皮制装饰边 (20) 和白色皮制背带扣。是正式晚宴等社交场合的最佳选择。",
     "accessories_product5_colour":"Colour : Navy Blue",
 
     "accessories_product6_name":"黑色云纹背带",
@@ -101,7 +101,7 @@
     "ult_story06":"我们将试穿毛样, 共同讨论衣服的舒适度和外观, 确保我们都对定制服装的制作进展感到满意。",
     "ult_story07":"返回到裁剪工作室后, 拜利先生将根据首次试穿的结果对毛样进行调整和精细化裁剪。裁缝师随后会为最终试穿对衣服进行最后的缝制。",
     "ult_story08":"这次见面时, 我们将确保双方都满意定制衣服的最终呈现效果。一切都很完美, 您的定制西装或礼服已准备好被交付并供您舒适愉悦地穿着！",
-    "ult_story09":"如果您在购买后需要对衣服进行修改或希望添加到您的定制服饰收藏中, 我们可以根据下一次定制巡展排期和日程安排预约见面。",
+    "ult_story09":"如果您在购买后需要对衣服进行修改或希望丰富您的定制服饰收藏，我们可以根据下一次定制巡展排期和日程预约见面。",
  
     "about_fontmain":"关于我们",
     "about_fontmain_l2":"...",
@@ -129,8 +129,8 @@
     "home_footer_l2":"请联系我们预约咨询或试穿 - 我们期待为您提供最优质的服装定制服务。",
     "home_footer_l3":"",
     "home_footer_office_name":"罗伯特·拜利定制工作室",    
-    "home_footer_email":"Email: robertbailey@robertbaileybespoke.com",
-    "home_footer_phone":"Phone: +44 7709 420 841",
+    "home_footer_email":"邮箱: robertbailey@robertbaileybespoke.com",
+    "home_footer_phone":"电话: +44 7709 420 841",
     "home_footer_followus":"关注我们",
 
     "about_us": "",
