@@ -141,17 +141,17 @@
 
     .robbgpreUL07 {
         background-image: url('../img/rob_ultimate/ultimate_picture09_2.jpg');
-        background-size: contain;
+        background-size: cover;
     }
 
     .robbgpreUL08 {
-        background-image: url('../img/rob_ultimate/ultimate_picture10_2.jpg');
-        background-size: contain;
+        background-image: url('../img/rob_ultimate/ultimate_picture11_2.jpg');
+        background-size: cover;
     }
 
     .robbgpreUL09 {
-        background-image: url('../img/rob_ultimate/ultimate_picture11_2.jpg');
-        background-size: contain;
+        background-image: url('../img/rob_ultimate/ultimate_picture10_2.jpg');
+        background-size: cover;
     }
 
     /* about */
