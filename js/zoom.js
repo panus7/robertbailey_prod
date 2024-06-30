@@ -76,8 +76,12 @@ function setfooterDynamicZoom() {
       break;
     }
   }
-  elm_footer_card.style.zoom = zoomFactor
 
+    if(elm_footer_card)
+    {
+      elm_footer_card.style.zoom = zoomFactor
+    }
+  
 
 
 }
