@@ -1,11 +1,11 @@
 ﻿@import url('../fonts/stylesheet.css');
 
 
-html,
-body {
+html, body
+{
     min-height: 300%;
     width: 100%;
-    font-family: "Open sans", sans-serif;
+    font-family: "Open sans" , sans-serif;
     font-size: 22px;
     line-spacing: 44px;
     margin: 0;
@@ -16,17 +16,20 @@ body {
 
 
 /*********fonts**********/
-.fontmain {
-    font-family: 'etherealthin', sans-serif;
+.fontmain
+{
+    font-family: 'etherealthin' , sans-serif;
 }
 
-.fontsub {
-    font-family: 'acuminlight', sans-serif;
+.fontsub
+{
+    font-family: 'acuminlight' , sans-serif;
 }
 
 
 /***********background***********/
-.bgfixed {
+.bgfixed
+{
     /*width: 100vw;     height: 100vh;*/
     background-repeat: no-repeat;
     background-position: center top;
@@ -36,13 +39,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
     /*position: -webkit-sticky;  Safari      position: sticky;     top: 0;     z-index: 0;*/
-
     /* @Hope for iphone */
-    /* @media only screen and (max-width: 575px) {
-        background-attachment: scroll; 
-    } */
+    /* @media only screen and (max-width: 575px) {         background-attachment: scroll;      } */
 
-    @supports (-webkit-touch-callout: none) {
+    @supports (-webkit-touch-callout: none)
+    {
         background-attachment: scroll;
     }
 }
@@ -56,7 +57,8 @@ body {
   CSS for other than iOS devices 
 } */
 
-.bgnomal {
+.bgnomal
+{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -95,18 +97,20 @@ body {
     background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
 }*/
 
-.robwhitemask {
+.robwhitemask
+{
     background-color: rgba(255, 255, 255, 0.82);
     color: rgb(8, 29, 84);
 }
 
-.robgraymask {
+.robgraymask
+{
     background-color: rgba(8, 29, 84, 0.28);
     color: rgb(255, 255, 255);
 }
 
-.robmain_pre .bespoke_line,
-.robmain_pre .subbespoke_line {
+.robmain_pre .bespoke_line, .robmain_pre .subbespoke_line
+{
     background-color: #FFFFFF;
 }
 
@@ -163,48 +167,58 @@ nav.scroll
 
 
 /* ต้องมีอันนี้ไม่งั้น iphone 12 mini ดูไม่ได้ */
-.headerbox {
+.headerbox
+{
     z-index: 100;
     margin-top: 200px;
     padding-top: 200px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px)
+{
 
-    .headerbox {
+    .headerbox
+    {
         margin-top: 50px;
         padding-top: 50px;
     }
 
-    .fontsub {
-        font-size: 18px
+    .fontsub
+    {
+        font-size: 18px;
     }
 
-    .robbgpre01 {
+    .robbgpre01
+    {
         background-image: url('../img/Homepage_BG1_375.jpg');
         background-size: contain;
     }
 
-    .robbgpre02 {
+    .robbgpre02
+    {
         background-image: url('../img/Homepage_BG2_375.jpg');
         background-size: cover;
     }
 
-    .hover_switch img {
+    .hover_switch img
+    {
         margin: 5px 7px;
         width: 32px;
         height: 32px;
     }
 
-    .payment_serv img {
+    .payment_serv img
+    {
         width: 70%;
     }
 
-    .btntop {
+    .btntop
+    {
         height: 100px;
     }
 
-    .btntop .topimg {
+    .btntop .topimg
+    {
         left: 37%;
     }
 
@@ -212,978 +226,1209 @@ nav.scroll
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 575.98px)
+{
 
-    .headerbox {
+    .headerbox
+    {
         margin-top: 60px;
         padding-top: 60px;
     }
 
-    .letter_spacing {
+    .letter_spacing
+    {
         letter-spacing: .2em;
     }
 
-    .robnavbar .navbar-nav .nav-link {
+    .robnavbar .navbar-nav .nav-link
+    {
         border: none !important;
+    }
+
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+    .robnavbar .navbar-brand
+    {
+        /*display: none;*/
     }
 
 
 
     /* Hope 2024-06-16 */
     /* .robbgpre01 {
-        background-image: url('../img/Homepage_BG1_2.jpg');
-    }
+            background-image: url('../img/Homepage_BG1_2.jpg');
+        }
 
-    .robbgpre02 {
-        background-image: url('../img/Homepage_BG2_2.jpg');
-    } */
+        .robbgpre02 {
+            background-image: url('../img/Homepage_BG2_2.jpg');
+        } */
 
-    .robbgpre01 {
+    .robbgpre01
+    {
         background-image: url('../img/Homepage_BG1_375.jpg');
         background-size: contain;
     }
 
-    .robbgpre02 {
+    .robbgpre02
+    {
         background-image: url('../img/Homepage_BG2_375.jpg');
         background-size: cover;
     }
 
 
 
-    .robbgpre03 {
+    .robbgpre03
+    {
         background-image: url('../img/rob_youtube/Homepage_BG3_2.jpg');
     }
 
-    .robbgpreG01 {
+    .robbgpreG01
+    {
         background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun_2.jpg');
     }
 
-    .robbgpreA01 {
+    .robbgpreA01
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
     }
 
-    .robbgpreA02 {
+    .robbgpreA02
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
     }
 
-    .robbgpreTS01 {
+    .robbgpreTS01
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1_2.jpg');
     }
 
-    .robbgpreTS02 {
+    .robbgpreTS02
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2_2.jpg');
     }
 
-    .robwhitemask .title,
-    .robgraymask .title {
+    .robwhitemask .title, .robgraymask .title
+    {
         font-size: 18px;
         line-height: 18px;
     }
 
-    .robwhitemask .submenu,
-    .robgraymask .submenu {
+    .robwhitemask .submenu, .robgraymask .submenu
+    {
         margin: 30px 0px;
         font-size: 18px;
     }
 
-    .robwhitemask .message,
-    .robgraymask .message {
+    .robwhitemask .message, .robgraymask .message
+    {
         font-size: 12px;
         margin-top: 30px;
     }
 
-    .accessories_if img {
+    .accessories_if img
+    {
         width: 82px;
         height: auto;
     }
 
-    .gallery_if img {
+    .gallery_if img
+    {
         width: 86px;
         height: auto;
     }
 
-    .robmain_pre .fullname {
+    .robmain_pre .fullname
+    {
         font-size: 28px;
     }
 
-    .robmain_pre .bespoke {
+    .robmain_pre .bespoke
+    {
         font-size: 22px;
         line-height: 22px;
         padding-top: 10px;
     }
 
-    .robmain_pre .bespoke_line {
+    .robmain_pre .bespoke_line
+    {
         width: 22px;
         height: 2px;
         margin-top: 9px;
     }
 
-    .robmain_pre .since {
+    .robmain_pre .since
+    {
         font-size: 13px;
         padding-top: 2px;
     }
 
-    .robmain_pre .tailoring {
+    .robmain_pre .tailoring
+    {
         font-size: 15px;
         margin-bottom: 50px;
         margin-top: 300px;
     }
 
-    .robmain_pre .subfullname {
+    .robmain_pre .subfullname
+    {
         font-size: 15px;
         margin-top: 18px;
     }
 
-    nav#dot-nav {
+    nav#dot-nav
+    {
         right: 10px;
     }
 
-    nav#dot-nav a {
+    nav#dot-nav a
+    {
         width: 3px;
         height: 30px;
         margin: 7px;
     }
 
-    .hover_switch img {
+    .hover_switch img
+    {
         margin: 5px 3px;
         width: 32px;
         height: 32px;
     }
 
-    .payment_serv img {
+    .payment_serv img
+    {
         margin: 5px 3px;
         width: 61px;
         height: auto;
     }
 
-    .btntop {
+    .btntop
+    {
         height: 100px;
     }
 
-    .btntop .topimg {
+    .btntop .topimg
+    {
         left: 39%;
     }
 
-    .btncookies {
+    .btncookies
+    {
         height: 35px;
     }
 
-    .btncookies .topimg {
+    .btncookies .topimg
+    {
         left: 41%;
         top: -43px;
     }
 
-    .btncookies img {
+    .btncookies img
+    {
         width: 80px;
         height: 80px;
     }
 
-    .robfooter {
+    .robfooter
+    {
         min-height: 400px;
     }
 
-    .robfooter .title {
+    .robfooter .title
+    {
         font-size: 18px;
     }
 
-    .robfooter .message {
+    .robfooter .message
+    {
         font-size: 10px;
         padding-top: 10px;
     }
 
-    .robfooter .robltd {
+    .robfooter .robltd
+    {
         padding-top: 47px;
     }
 
-    .eff_slideup_imgsize {
+    .eff_slideup_imgsize
+    {
         width: 100%;
     }
 
-    .eff_slideup_australia {}
+    .eff_slideup_australia
+    {
+    }
 
-    .eff_slideup_hide {
+    .eff_slideup_hide
+    {
         display: none !important;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .letter_spacing {
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .letter_spacing
+    {
         letter-spacing: .2em;
     }
 
-    .robnavbar .navbar-nav .nav-link {
+    .robnavbar .navbar-nav .nav-link
+    {
         border: none !important;
     }
 
-    .robbgpre01 {
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+    .robnavbar .navbar-brand
+    {
+        /*display: none;*/
+    }
+
+    .robbgpre01
+    {
         background-image: url('../img/Homepage_BG1.jpg');
     }
 
-    .robbgpre02 {
+    .robbgpre02
+    {
         background-image: url('../img/Homepage_BG2.jpg');
     }
 
-    .robbgpre03 {
+    .robbgpre03
+    {
         background-image: url('../img/rob_youtube/Homepage_BG3.jpg');
     }
 
-    .robbgpreG01 {
+    .robbgpreG01
+    {
         background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
     }
 
-    .robbgpreA01 {
+    .robbgpreA01
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
     }
 
-    .robbgpreA02 {
+    .robbgpreA02
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
     }
 
-    .robbgpreTS01 {
+    .robbgpreTS01
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
     }
 
-    .robbgpreTS02 {
+    .robbgpreTS02
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
     }
 
-    .robwhitemask .title,
-    .robgraymask .title {
+    .robwhitemask .title, .robgraymask .title
+    {
         font-size: 32px;
         line-height: 32px;
     }
 
-    .robwhitemask .submenu,
-    .robgraymask .submenu {
+    .robwhitemask .submenu, .robgraymask .submenu
+    {
         margin: 50px 0px;
         font-size: 20px;
     }
 
-    .robwhitemask .message,
-    .robgraymask .message {
+    .robwhitemask .message, .robgraymask .message
+    {
         font-size: 16px;
         margin-top: 60px;
     }
 
-    .accessories_if img {
+    .accessories_if img
+    {
         width: 108px;
         height: auto;
     }
 
-    .gallery_if img {
+    .gallery_if img
+    {
         width: 113px;
         height: auto;
     }
 
-    .robmain_pre .fullname {
+    .robmain_pre .fullname
+    {
         font-size: 38px;
     }
 
-    .robmain_pre .bespoke {
+    .robmain_pre .bespoke
+    {
         font-size: 28px;
         line-height: 28px;
         padding-top: 12px;
     }
 
-    .robmain_pre .bespoke_line {
+    .robmain_pre .bespoke_line
+    {
         width: 24px;
         height: 2px;
         margin-top: 9px;
     }
 
-    .robmain_pre .since {
+    .robmain_pre .since
+    {
         font-size: 14px;
         padding-top: 2px;
     }
 
-    .robmain_pre .tailoring {
+    .robmain_pre .tailoring
+    {
         font-size: 18px;
         margin-bottom: 100px;
         margin-top: 350px;
     }
 
-    .robmain_pre .subfullname {
+    .robmain_pre .subfullname
+    {
         font-size: 18px;
         margin-top: 20px;
     }
 
-    nav#dot-nav {
+    nav#dot-nav
+    {
         right: 10px;
     }
 
-    nav#dot-nav a {
+    nav#dot-nav a
+    {
         width: 5px;
         height: 35px;
         margin: 10px;
     }
 
-    .hover_switch img {
+    .hover_switch img
+    {
         margin: 5px 10px;
         width: 38px;
         height: 38px;
     }
 
-    .payment_serv img {
+    .payment_serv img
+    {
         margin: 5px 10px;
         width: 87px;
         height: auto;
     }
 
-    .btntop {
+    .btntop
+    {
         height: 100px;
     }
 
-    .btntop .topimg {
+    .btntop .topimg
+    {
         left: 43%;
     }
 
-    .btncookies {
+    .btncookies
+    {
         height: 35px;
     }
 
-    .btncookies .topimg {
+    .btncookies .topimg
+    {
         left: 44%;
         top: -43px;
     }
 
-    .btncookies img {
+    .btncookies img
+    {
         width: 80px;
         height: 80px;
     }
 
-    .robfooter {
+    .robfooter
+    {
         min-height: 450px;
     }
 
-    .robfooter .title {
+    .robfooter .title
+    {
         font-size: 22px;
     }
 
-    .robfooter .message {
+    .robfooter .message
+    {
         font-size: 14px;
         padding-top: 10px;
     }
 
-    .robfooter .robltd {
+    .robfooter .robltd
+    {
         padding-top: 47px;
     }
 
-    .eff_slideup_imgsize {
+    .eff_slideup_imgsize
+    {
         width: 100%;
     }
 
-    .eff_slideup_australia {
+    .eff_slideup_australia
+    {
         width: 350px;
     }
 
-    .eff_slideup_hide {
+    .eff_slideup_hide
+    {
         display: none !important;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .letter_spacing {
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .letter_spacing
+    {
         letter-spacing: .2em;
     }
 
-    .robnavbar .navbar-nav .nav-link {
+    .robnavbar .navbar-nav .nav-link
+    {
         border: none !important;
     }
 
-    .robbgpre01 {
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+    .robnavbar .navbar-brand
+    {
+        /*display: none;*/
+    }
+
+    .robbgpre01
+    {
         background-image: url('../img/Homepage_BG1.jpg');
     }
 
-    .robbgpre02 {
+    .robbgpre02
+    {
         background-image: url('../img/Homepage_BG2.jpg');
     }
 
-    .robbgpre03 {
+    .robbgpre03
+    {
         background-image: url('../img/rob_youtube/Homepage_BG3.jpg');
     }
 
-    .robbgpreG01 {
+    .robbgpreG01
+    {
         background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
     }
 
-    .robbgpreA01 {
+    .robbgpreA01
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
     }
 
-    .robbgpreA02 {
+    .robbgpreA02
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
     }
 
-    .robbgpreTS01 {
+    .robbgpreTS01
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
     }
 
-    .robbgpreTS02 {
+    .robbgpreTS02
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
     }
 
-    .robwhitemask .title,
-    .robgraymask .title {
+    .robwhitemask .title, .robgraymask .title
+    {
         font-size: 34px;
         line-height: 34px;
     }
 
-    .robwhitemask .submenu,
-    .robgraymask .submenu {
+    .robwhitemask .submenu, .robgraymask .submenu
+    {
         margin: 70px 0px;
         font-size: 22px;
     }
 
-    .robwhitemask .message,
-    .robgraymask .message {
+    .robwhitemask .message, .robgraymask .message
+    {
         font-size: 20px;
         margin-top: 70px;
     }
 
-    .accessories_if img {
+    .accessories_if img
+    {
         width: 138px;
         height: auto;
     }
 
-    .gallery_if img {
+    .gallery_if img
+    {
         width: 145px;
         height: auto;
     }
 
-    .robmain_pre .fullname {
+    .robmain_pre .fullname
+    {
         font-size: 44px;
     }
 
-    .robmain_pre .bespoke {
+    .robmain_pre .bespoke
+    {
         font-size: 32px;
         line-height: 32px;
         padding-top: 10px;
     }
 
-    .robmain_pre .bespoke_line {
+    .robmain_pre .bespoke_line
+    {
         width: 28px;
         height: 3px;
         margin-top: 12px;
     }
 
-    .robmain_pre .since {
+    .robmain_pre .since
+    {
         font-size: 16px;
         padding-top: 2px;
     }
 
-    .robmain_pre .tailoring {
+    .robmain_pre .tailoring
+    {
         font-size: 26px;
         margin-bottom: 100px;
         margin-top: 300px;
     }
 
-    .robmain_pre .subfullname {
+    .robmain_pre .subfullname
+    {
         font-size: 18px;
         margin-top: 25px;
     }
 
-    nav#dot-nav {
+    nav#dot-nav
+    {
         right: 20px;
     }
 
-    nav#dot-nav a {
+    nav#dot-nav a
+    {
         width: 7px;
         height: 40px;
         margin: 10px;
     }
 
-    .hover_switch img {
+    .hover_switch img
+    {
         margin: 5px 10px;
         width: 48px;
         height: 48px;
     }
 
-    .payment_serv img {
+    .payment_serv img
+    {
         margin: 5px 10px;
         width: 97px;
         height: auto;
     }
 
-    .btntop {
+    .btntop
+    {
         height: 130px;
     }
 
-    .btntop .topimg {
+    .btntop .topimg
+    {
         left: 43%;
     }
 
-    .btncookies {
+    .btncookies
+    {
         height: 35px;
     }
 
-    .btncookies .topimg {
+    .btncookies .topimg
+    {
         left: 44%;
         top: -43px;
     }
 
-    .btncookies img {
+    .btncookies img
+    {
         width: 80px;
         height: 80px;
     }
 
-    .robfooter {
+    .robfooter
+    {
         min-height: 550px;
     }
 
-    .robfooter .title {
+    .robfooter .title
+    {
         font-size: 27px;
     }
 
-    .robfooter .message {
+    .robfooter .message
+    {
         font-size: 16px;
         padding-top: 10px;
     }
 
-    .robfooter .robltd {
+    .robfooter .robltd
+    {
         padding-top: 77px;
     }
 
-    .eff_slideup_imgsize {
+    .eff_slideup_imgsize
+    {
         width: 100%;
     }
 
-    .eff_slideup_australia {
+    .eff_slideup_australia
+    {
         width: 350px;
     }
 
-    .eff_slideup_hide {
+    .eff_slideup_hide
+    {
         display: none !important;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .letter_spacing {
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .letter_spacing
+    {
         letter-spacing: .2em;
     }
 
-    .robnavbar .navbar-nav .nav-link {
+    .robnavbar .navbar-nav .nav-link
+    {
         border-style: solid;
         border-width: 0px 1px 0px 0px;
         border-color: rgb(255, 255, 255);
     }
 
-    .robbgpre01 {
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+    .robnavbar .navbar-brand
+    {
+        display: none;
+    }
+
+    .robbgpre01
+    {
         background-image: url('../img/Homepage_BG1.jpg');
     }
 
-    .robbgpre02 {
+    .robbgpre02
+    {
         background-image: url('../img/Homepage_BG2.jpg');
     }
 
-    .robbgpre03 {
+    .robbgpre03
+    {
         background-image: url('../img/rob_youtube/Homepage_BG3.jpg');
     }
 
-    .robbgpreG01 {
+    .robbgpreG01
+    {
         background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
     }
 
-    .robbgpreA01 {
+    .robbgpreA01
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
     }
 
-    .robbgpreA02 {
+    .robbgpreA02
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
     }
 
-    .robbgpreTS01 {
+    .robbgpreTS01
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
     }
 
-    .robbgpreTS02 {
+    .robbgpreTS02
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
     }
 
-    .robwhitemask .title,
-    .robgraymask .title {
+    .robwhitemask .title, .robgraymask .title
+    {
         font-size: 38px;
         line-height: 38px;
     }
 
-    .robwhitemask .submenu,
-    .robgraymask .submenu {
+    .robwhitemask .submenu, .robgraymask .submenu
+    {
         margin: 70px 0px;
         font-size: 24px;
     }
 
-    .robwhitemask .message,
-    .robgraymask .message {
+    .robwhitemask .message, .robgraymask .message
+    {
         font-size: 22px;
         margin-top: 70px;
     }
 
-    .accessories_if img {
+    .accessories_if img
+    {
         width: 166px;
         height: auto;
     }
 
-    .gallery_if img {
+    .gallery_if img
+    {
         width: 174px;
         height: auto;
     }
 
-    .robmain_pre .fullname {
+    .robmain_pre .fullname
+    {
         font-size: 52px;
     }
 
-    .robmain_pre .bespoke {
+    .robmain_pre .bespoke
+    {
         font-size: 32px;
         line-height: 32px;
         padding-top: 15px;
     }
 
-    .robmain_pre .bespoke_line {
+    .robmain_pre .bespoke_line
+    {
         width: 25px;
         height: 3px;
         margin-top: 13px;
     }
 
-    .robmain_pre .since {
+    .robmain_pre .since
+    {
         font-size: 18px;
         padding-top: 2px;
     }
 
-    .robmain_pre .tailoring {
+    .robmain_pre .tailoring
+    {
         font-size: 28px;
         margin-bottom: 100px;
         margin-top: 300px;
     }
 
-    .robmain_pre .subfullname {
+    .robmain_pre .subfullname
+    {
         font-size: 20px;
         margin-top: 28px;
     }
 
-    nav#dot-nav {
+    nav#dot-nav
+    {
         right: 20px;
     }
 
-    nav#dot-nav a {
+    nav#dot-nav a
+    {
         width: 7px;
         height: 40px;
         margin: 10px;
     }
 
-    .hover_switch img {
+    .hover_switch img
+    {
         margin: 5px 10px;
         width: 52px;
         height: 52px;
     }
 
-    .payment_serv img {
+    .payment_serv img
+    {
         margin: 5px 10px;
         width: 101px;
         height: auto;
     }
 
-    .btntop {
+    .btntop
+    {
         height: 130px;
     }
 
-    .btntop .topimg {
+    .btntop .topimg
+    {
         left: 46%;
     }
 
-    .btncookies {
+    .btncookies
+    {
         height: 35px;
     }
 
-    .btncookies .topimg {
+    .btncookies .topimg
+    {
         left: 44%;
         top: -43px;
     }
 
-    .btncookies img {
+    .btncookies img
+    {
         width: 80px;
         height: 80px;
     }
 
-    .robfooter {
+    .robfooter
+    {
         min-height: 550px;
     }
 
-    .robfooter .title {
+    .robfooter .title
+    {
         font-size: 27px;
     }
 
-    .robfooter .message {
+    .robfooter .message
+    {
         font-size: 16px;
         padding-top: 10px;
     }
 
-    .robfooter .robltd {
+    .robfooter .robltd
+    {
         padding-top: 77px;
     }
 
-    .eff_slideup_imgsize {
+    .eff_slideup_imgsize
+    {
         width: 100%;
     }
 
-    .eff_slideup_australia {
+    .eff_slideup_australia
+    {
         width: 350px;
     }
 
-    .eff_slideup_hide {
+    .eff_slideup_hide
+    {
         display: none !important;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .letter_spacing {
+@media (min-width: 1200px)
+{
+    .letter_spacing
+    {
         letter-spacing: .2em;
     }
 
-    .robnavbar .navbar-nav .nav-link {
+    .robnavbar .navbar-nav .nav-link
+    {
         border-style: solid;
         border-width: 0px 1px 0px 0px;
         border-color: rgb(255, 255, 255);
     }
 
-    .robbgpre01 {
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+    .robnavbar .navbar-brand
+    {
+        display: none;
+    }
+
+    .robbgpre01
+    {
         background-image: url('../img/Homepage_BG1.jpg');
     }
 
-    .robbgpre02 {
+    .robbgpre02
+    {
         background-image: url('../img/Homepage_BG2.jpg');
     }
 
-    .robbgpre03 {
+    .robbgpre03
+    {
         background-image: url('../img/rob_youtube/Homepage_BG3.jpg');
     }
 
-    .robbgpreG01 {
+    .robbgpreG01
+    {
         background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
     }
 
-    .robbgpreA01 {
+    .robbgpreA01
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
     }
 
-    .robbgpreA02 {
+    .robbgpreA02
+    {
         background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
     }
 
-    .robbgpreTS01 {
+    .robbgpreTS01
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
     }
 
-    .robbgpreTS02 {
+    .robbgpreTS02
+    {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
     }
 
-    .robwhitemask .title,
-    .robgraymask .title {
+    .robwhitemask .title, .robgraymask .title
+    {
         font-size: 48px;
         line-height: 48px;
     }
 
-    .robwhitemask .submenu,
-    .robgraymask .submenu {
+    .robwhitemask .submenu, .robgraymask .submenu
+    {
         margin: 50px 0px;
         font-size: 26px;
     }
 
-    .robwhitemask .message,
-    .robgraymask .message {
+    .robwhitemask .message, .robgraymask .message
+    {
         font-size: 26px;
         margin-top: 50px;
     }
 
-    .accessories_if img {
+    .accessories_if img
+    {
         width: 234px;
         height: auto;
     }
 
-    .gallery_if img {
+    .gallery_if img
+    {
         width: 245px;
         height: auto;
     }
 
-    .robmain_pre .fullname {
+    .robmain_pre .fullname
+    {
         font-size: 64px;
     }
 
-    .robmain_pre .bespoke {
+    .robmain_pre .bespoke
+    {
         font-size: 44px;
         line-height: 44px;
         padding-top: 20px;
     }
 
-    .robmain_pre .bespoke_line {
+    .robmain_pre .bespoke_line
+    {
         width: 30px;
         height: 3px;
         margin-top: 15px;
     }
 
-    .robmain_pre .subbespoke {
+    .robmain_pre .subbespoke
+    {
         font-size: 24px;
         line-height: 24px;
         padding-top: 20px;
     }
 
-    .robmain_pre .subbespoke_line {
+    .robmain_pre .subbespoke_line
+    {
         width: 24px;
         height: 2px;
         margin-top: 8px;
     }
 
-    .robmain_pre .since {
+    .robmain_pre .since
+    {
         font-size: 18px;
         padding-top: 5px;
     }
 
-    .robmain_pre .tailoring {
+    .robmain_pre .tailoring
+    {
         font-size: 24px;
         margin-bottom: 80px;
         margin-top: 170px;
     }
 
-    .robmain_pre .subfullname {
+    .robmain_pre .subfullname
+    {
         font-size: 22px;
         margin-top: 30px;
     }
 
-    nav#dot-nav {
+    nav#dot-nav
+    {
         right: 30px;
     }
 
-    nav#dot-nav a {
+    nav#dot-nav a
+    {
         width: 7px;
         height: 40px;
         margin: 10px;
     }
 
-    .hover_switch img {
+    .hover_switch img
+    {
         margin: 5px 10px;
         width: 60px;
         height: 60px;
     }
 
-    .payment_serv img {
+    .payment_serv img
+    {
         margin: 5px 10px;
         width: 109px;
         height: auto;
     }
 
-    .btntop {
+    .btntop
+    {
         height: 10px;
     }
 
-    .btntop .topimg {
+    .btntop .topimg
+    {
         left: 47%;
     }
 
-    .btncookies {
+    .btncookies
+    {
         height: 35px;
     }
 
-    .btncookies .topimg {
+    .btncookies .topimg
+    {
         left: 46%;
         top: -43px;
     }
 
-    .btncookies img {
+    .btncookies img
+    {
         width: 80px;
         height: 80px;
     }
 
-    .robfooter {
+    .robfooter
+    {
         min-height: 90vh;
     }
 
-    .robfooter .title {
+    .robfooter .title
+    {
         font-size: 27px;
     }
 
-    .robfooter .message {
+    .robfooter .message
+    {
         font-size: 16px;
         padding-top: 10px;
     }
 
-    .robfooter .robltd {
+    .robfooter .robltd
+    {
         padding-top: 77px;
     }
 
-    .eff_slideup_imgsize {}
+    .eff_slideup_imgsize
+    {
+    }
 
-    .eff_slideup_australia {
+    .eff_slideup_australia
+    {
         width: 350px;
     }
 
-    .eff_slideup_hide {}
+    .eff_slideup_hide
+    {
+    }
 }
 
-.robnavbar .navbar-brand {
+.robnavbar .navbar-brand
+{
     color: #fff;
 }
 
-.robnavbar .navbar-brand:focus,
-.robnavbar .navbar-brand:hover {
+.robnavbar .navbar-brand:focus, .robnavbar .navbar-brand:hover
+{
     color: #fff;
 }
 
-.robnavbar .navbar-nav .nav-link {
+.robnavbar .navbar-nav .nav-link
+{
     padding: 3px 30px !important;
-    color: rgb(255, 255, 255);
-    /*font-weight: 500;     line-height: 24px;     text-align: center;*/
-    font-size: 15px;
+    color: rgb(255, 255, 255); /*font-weight: 500;     line-height: 24px;     text-align: center;*/
     transition: all 0.3s;
 }
 
-.robnavbar .navbar-nav .nav-link:focus,
-.robnavbar .navbar-nav .nav-link:hover {
+.robnavbar .navbar-nav .nav-link:focus, .robnavbar .navbar-nav .nav-link:hover
+{
     color: rgba(255, 255, 255, .75);
 }
 
-.robnavbar .navbar-nav .nav-link.disabled {
+.robnavbar .navbar-nav .nav-link.disabled
+{
     color: rgba(255, 255, 255, .25);
 }
 
-.robnavbar .navbar-nav .active>.nav-link,
-.robnavbar.navbar-nav .nav-link.active,
-.robnavbar .navbar-nav .nav-link.show,
-.robnavbar .navbar-nav .show>.nav-link {
+.robnavbar .navbar-nav .active > .nav-link, .robnavbar.navbar-nav .nav-link.active, .robnavbar .navbar-nav .nav-link.show, .robnavbar .navbar-nav .show > .nav-link
+{
     color: #fff;
 }
 
-.robnavbar .navbar-toggler {
+.robnavbar .navbar-toggler
+{
     color: rgba(255, 255, 255, .5);
     border-color: rgba(255, 255, 255, .1);
 }
 
-.robnavbar .navbar-toggler-icon {
+.robnavbar .navbar-toggler-icon
+{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.robnavbar .navbar-text {
+.robnavbar .navbar-text
+{
     color: rgba(255, 255, 255, .5);
 }
 
-.robnavbar .navbar-text a {
+.robnavbar .navbar-text a
+{
     color: #fff;
 }
 
-.robnavbar .navbar-text a:focus,
-.robnavbar .navbar-text a:hover {
+.robnavbar .navbar-text a:focus, .robnavbar .navbar-text a:hover
+{
     color: #fff;
 }
 
 /*link no border*/
-.robnavbar .navbar-nav .nav-link.noborder {
+.robnavbar .navbar-nav .nav-link.noborder
+{
     border: none !important;
 }
 
 /*navbar dropdown menu*/
-.robnavbar .dropdown-menu {
+.robnavbar .dropdown-menu
+{
     /*background: rgba(0, 49, 172, 0.7);     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);*/
     text-align: center;
     padding: 20px 30px;
@@ -1193,13 +1438,14 @@ nav.scroll
     -webkit-border-radius: 15px;
 }
 
-.robnavbar .dropdown-menu a {
+.robnavbar .dropdown-menu a
+{
     color: rgb(8, 29, 84);
-    background: none;
-    /*background-color: #B8E4F0;     border-bottom-width: 1px;     border-bottom-style: solid;     border-bottom-color: #99DCEA;*/
+    background: none; /*background-color: #B8E4F0;     border-bottom-width: 1px;     border-bottom-style: solid;     border-bottom-color: #99DCEA;*/
 }
 
-.robnavbar .dropdown-menu a:hover {
+.robnavbar .dropdown-menu a:hover
+{
     /*background-color: #81CEE4;*/
     color: rgba(8, 29, 84, .8) !important;
 }
@@ -1209,7 +1455,8 @@ nav.scroll
     font-size: 16px;
     white-space: normal;
 }*/
-.dropdown .dropdown-menu {
+.dropdown .dropdown-menu
+{
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
@@ -1221,19 +1468,22 @@ nav.scroll
     opacity: 0;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu
+{
     max-height: 600px;
     opacity: 1;
 }
 
 /*background navbar*/
-.robbgnavbar {
+.robbgnavbar
+{
     background-color: transparent !important;
     -webkit-transition: all 0.7s;
     transition: all 0.7s;
 }
 
-.robbgnavbar.bg-lime {
+.robbgnavbar.bg-lime
+{
     background-color: rgba(14, 16, 15, 0.38) !important;
     -webkit-backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
@@ -1243,11 +1493,13 @@ nav.scroll
 }
 
 /***********nav dot**********/
-nav#dot-nav {
+nav#dot-nav
+{
     position: fixed;
 }
 
-nav#dot-nav a {
+nav#dot-nav a
+{
     /*border: 1px solid #121212;     border-radius: 50%;     width: 16px;     height: 16px;*/
     background-color: rgb(255, 255, 255);
     display: block;
@@ -1255,17 +1507,19 @@ nav#dot-nav a {
     transition: all 0.7s;
 }
 
-nav#dot-nav a.active {
+nav#dot-nav a.active
+{
     /*background: #121212;*/
     background-color: rgba(14, 16, 15, 0.38);
 }
 
-.hover_switch {
-    position: relative;
-    /*display: inline-block;*/
+.hover_switch
+{
+    position: relative; /*display: inline-block;*/
 }
 
-.hover_switch .img_top {
+.hover_switch .img_top
+{
     opacity: 1;
     position: absolute;
     transition: opacity 0.5s ease-in-out;
@@ -1273,17 +1527,19 @@ nav#dot-nav a.active {
     -webkit-transition: opacity 0.5s ease-in-out;
 }
 
-.hover_switch:hover .img_top {
+.hover_switch:hover .img_top
+{
     opacity: 0;
 }
 
 /*******/
-.imghover_switch {
-    position: relative;
-    /*display: inline-block;*/
+.imghover_switch
+{
+    position: relative; /*display: inline-block;*/
 }
 
-.imghover_switch .img_top {
+.imghover_switch .img_top
+{
     opacity: 1;
     position: absolute;
     transition: opacity 0.5s ease-in-out;
@@ -1291,17 +1547,20 @@ nav#dot-nav a.active {
     -webkit-transition: opacity 0.5s ease-in-out;
 }
 
-.imghover_switch:hover .img_top {
+.imghover_switch:hover .img_top
+{
     opacity: 0;
 }
 
-.imghover_switch img {
+.imghover_switch img
+{
     width: 100%;
     height: auto;
 }
 
 /********rob youtube*********/
-.rob_corner {
+.rob_corner
+{
     outline: none !important;
     border-radius: 39px;
     -moz-border-radius: 39px;
@@ -1309,27 +1568,33 @@ nav#dot-nav a.active {
     border: none;
 }
 
-.rob_bgyoutube01 {
+.rob_bgyoutube01
+{
     background-image: url('../img/rob_youtube/rob_youtube_1.png');
 }
 
-.rob_bgyoutube02 {
+.rob_bgyoutube02
+{
     background-image: url('../img/rob_youtube/rob_youtube_2.png');
 }
 
-.rob_bgyoutube03 {
+.rob_bgyoutube03
+{
     background-image: url('../img/rob_youtube/rob_youtube_3.png');
 }
 
-.rob_bgyoutube04 {
+.rob_bgyoutube04
+{
     background-image: url('../img/rob_youtube/rob_youtube_4.png');
 }
 
-.navimg-pills {
+.navimg-pills
+{
     min-height: 304px;
 }
 
-.navimg-pills .nav-link {
+.navimg-pills .nav-link
+{
     background: 0 0;
     border: 0;
     border-radius: .25rem;
@@ -1340,122 +1605,137 @@ nav#dot-nav a.active {
     background-size: 32px auto;
 }
 
-.navimg-pills .nav-link.active,
-.navimg-pills .show>.nav-link {
+.navimg-pills .nav-link.active, .navimg-pills .show > .nav-link
+{
     background-repeat: no-repeat;
     background-size: 32px auto;
 }
 
-.linebutton.nav-link {
+.linebutton.nav-link
+{
     background-image: url('../img/Icon/Line_Normal-01.jpg');
 }
 
-.linebutton.nav-link.active,
-.linebutton .show>.nav-link {
+.linebutton.nav-link.active, .linebutton .show > .nav-link
+{
     background-image: url('../img/Icon/Line_Active-01.jpg');
 }
 
-.facebookbutton.nav-link {
+.facebookbutton.nav-link
+{
     background-image: url('../img/Icon/Facebook_Normal-01.jpg');
 }
 
-.facebookbutton.nav-link.active,
-.facebookbutton .show>.nav-link {
+.facebookbutton.nav-link.active, .facebookbutton .show > .nav-link
+{
     background-image: url('../img/Icon/Facebook_Active-01.jpg');
 }
 
-.emailbutton.nav-link {
+.emailbutton.nav-link
+{
     background-image: url('../img/Icon/Email_Normal-01.png');
 }
 
-.emailbutton.nav-link.active,
-.emailbutton .show>.nav-link {
+.emailbutton.nav-link.active, .emailbutton .show > .nav-link
+{
     background-image: url('../img/Icon/Email_Active-01.png');
 }
 
-.IGbutton.nav-link {
+.IGbutton.nav-link
+{
     background-image: url('../img/Icon/IG_Normal-01.jpg');
 }
 
-.IGbutton.nav-link.active,
-.IGbutton .show>.nav-link {
+.IGbutton.nav-link.active, .IGbutton .show > .nav-link
+{
     background-image: url('../img/Icon/IG_Active-01.jpg');
 }
 
-.weechatbutton.nav-link {
+.weechatbutton.nav-link
+{
     background-image: url('../img/Icon/Weechat_Normal-01.jpg');
 }
 
-.weechatbutton.nav-link.active,
-.weechatbutton .show>.nav-link {
+.weechatbutton.nav-link.active, .weechatbutton .show > .nav-link
+{
     background-image: url('../img/Icon/Weechat_Active-01.jpg');
 }
 
-.whatsappbutton.nav-link {
+.whatsappbutton.nav-link
+{
     background-image: url('../img/Icon/Whatsapp_Normal-01.jpg');
 }
 
-.whatsappbutton.nav-link.active,
-.whatsappbutton .show>.nav-link {
+.whatsappbutton.nav-link.active, .whatsappbutton .show > .nav-link
+{
     background-image: url('../img/Icon/Whatsapp_Active-01.jpg');
 }
 
-.phonebutton.nav-link {
+.phonebutton.nav-link
+{
     background-image: url('../img/Icon/Phone_Icon_Normal-01.png');
 }
 
-.phonebutton.nav-link.active,
-.phonebutton .show>.nav-link {
+.phonebutton.nav-link.active, .phonebutton .show > .nav-link
+{
     background-image: url('../img/Icon/Phone_Icon_Active-01.png');
 }
 
 
-.robhight {
+.robhight
+{
     min-height: 100vh;
 }
 
-.btntop,
-.btncookies {
+.btntop, .btncookies
+{
     position: relative;
 }
 
-.btntop .topimg,
-.btncookies .topimg {
+.btntop .topimg, .btncookies .topimg
+{
     position: absolute;
 }
 
-.robfooter {
+.robfooter
+{
     color: rgb(8, 29, 84);
     background-color: rgb(255, 255, 255);
 }
 
-.btntop .topimg {
+.btntop .topimg
+{
     top: -53px;
 }
 
-.btntop img {
+.btntop img
+{
     width: 106px;
     height: 106px;
 }
 
 /*---------link button---------*/
-.alink {
+.alink
+{
     color: rgb(8, 29, 84);
     text-decoration: none;
 }
 
-.alink:hover {
+.alink:hover
+{
     color: rgba(8, 29, 84, .8);
     text-decoration: none;
 }
 
 /*------image news content-------*/
-.eff_slideup {
+.eff_slideup
+{
     position: relative;
     width: 100%;
 }
 
-.eff_slideup_imgoverlay {
+.eff_slideup_imgoverlay
+{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1467,11 +1747,13 @@ nav#dot-nav a.active {
     transition: .5s ease;
 }
 
-.eff_slideup:hover .eff_slideup_imgoverlay {
+.eff_slideup:hover .eff_slideup_imgoverlay
+{
     height: 100%;
 }
 
-.eff_slideup_txtoverlay {
+.eff_slideup_txtoverlay
+{
     color: rgb(8, 29, 84);
     font-size: 47px;
     text-align: center;
@@ -1479,17 +1761,20 @@ nav#dot-nav a.active {
     height: 100%;
 }
 
-.eff_slideup_txtoverlay a {
+.eff_slideup_txtoverlay a
+{
     color: rgb(8, 29, 84);
     text-decoration: none;
 }
 
-.eff_slideup_txtoverlay a:hover {
+.eff_slideup_txtoverlay a:hover
+{
     color: rgba(8, 29, 84, .8);
     text-decoration: none;
 }
 
-.eff_slideup_txtoverlay p {
+.eff_slideup_txtoverlay p
+{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -1499,7 +1784,8 @@ nav#dot-nav a.active {
 }
 
 /*----------background popup-----------*/
-.robpopup {
+.robpopup
+{
     /*padding: 20px 30px;*/
     color: rgb(8, 29, 84);
     background-color: rgba(255, 255, 255, 0.9);
@@ -1509,7 +1795,8 @@ nav#dot-nav a.active {
     -webkit-border-radius: 40px;
 }
 
-.noneborder {
+.noneborder
+{
     border: none;
 }
 
