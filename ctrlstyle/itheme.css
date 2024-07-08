@@ -174,7 +174,7 @@ nav.scroll
     padding-top: 200px;
 }
 
-@media (max-width: 375px)
+/*@media (max-width: 375px)
 {
 
     .headerbox
@@ -223,7 +223,7 @@ nav.scroll
     }
 
 
-}
+}*
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px)
@@ -245,10 +245,11 @@ nav.scroll
         border: none !important;
     }
 
-    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    .robnavbar .navbar-nav .nav-link, .robnavbar .dropdown-item, .robnavbar .navbar-brand
     {
-        font-size: 15px;
+        font-size: 9px;
     }
+    
     .robnavbar .navbar-brand
     {
         font-family: 'etherealthin' , sans-serif;
@@ -345,6 +346,12 @@ nav.scroll
         font-size: 28px;
     }
 
+    .robmain_pre .robfullname
+    {
+        font-size: 20px;
+        padding-top: 160px;
+    }
+
     .robmain_pre .bespoke
     {
         font-size: 22px;
@@ -357,6 +364,13 @@ nav.scroll
         width: 22px;
         height: 2px;
         margin-top: 9px;
+    }
+
+    .robmain_pre .subbespoke
+    {
+        font-size: 16px;
+        line-height: 16px;
+        padding-top: 10px;
     }
 
     .robmain_pre .since
@@ -565,6 +579,12 @@ nav.scroll
         font-size: 38px;
     }
 
+    .robmain_pre .robfullname
+    {
+        font-size: 34px;
+        padding-top: 240px;
+    }
+
     .robmain_pre .bespoke
     {
         font-size: 28px;
@@ -577,6 +597,13 @@ nav.scroll
         width: 24px;
         height: 2px;
         margin-top: 9px;
+    }
+
+    .robmain_pre .subbespoke
+    {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 20px;
     }
 
     .robmain_pre .since
@@ -786,6 +813,12 @@ nav.scroll
         font-size: 44px;
     }
 
+    .robmain_pre .robfullname
+    {
+        font-size: 34px;
+        padding-top: 350px;
+    }
+
     .robmain_pre .bespoke
     {
         font-size: 32px;
@@ -798,6 +831,13 @@ nav.scroll
         width: 28px;
         height: 3px;
         margin-top: 12px;
+    }
+
+    .robmain_pre .subbespoke
+    {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 20px;
     }
 
     .robmain_pre .since
@@ -926,7 +966,7 @@ nav.scroll
 
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 15px;
+        font-size: 7px;
     }
     .robnavbar .navbar-brand
     {
@@ -1008,6 +1048,12 @@ nav.scroll
         font-size: 52px;
     }
 
+    .robmain_pre .robfullname
+    {
+        font-size: 34px;
+        padding-top: 420px;
+    }
+
     .robmain_pre .bespoke
     {
         font-size: 32px;
@@ -1020,6 +1066,13 @@ nav.scroll
         width: 25px;
         height: 3px;
         margin-top: 13px;
+    }
+
+    .robmain_pre .subbespoke
+    {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 20px;
     }
 
     .robmain_pre .since
@@ -1226,6 +1279,12 @@ nav.scroll
         font-size: 64px;
     }
 
+    .robmain_pre .robfullname
+    {
+        font-size: 34px;
+        padding-top: 300px;
+    }
+
     .robmain_pre .bespoke
     {
         font-size: 44px;
@@ -1361,39 +1420,39 @@ nav.scroll
     }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 1200px) and (max-width: 1199.98px)
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px)
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 15px;
+        font-size: 7px;
     }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 1400px and up) */
 @media (min-width: 1400px) and (max-width: 1599.98px)
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 15px;
+        font-size: 11px;
     }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 1600px and up) */
 @media (min-width: 1600px) and (max-width: 1899.98px)
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 1900px and up) */
 @media (min-width: 1900px)
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
