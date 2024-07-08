@@ -1145,11 +1145,7 @@ nav.scroll
         border-width: 0px 1px 0px 0px;
         border-color: rgb(255, 255, 255);
     }
-
-    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
-    {
-        font-size: 15px;
-    }
+    
     .robnavbar .navbar-brand
     {
         display: none;
@@ -1365,6 +1361,42 @@ nav.scroll
     }
 }
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1199.98px)
+{
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1400px) and (max-width: 1599.98px)
+{
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1600px) and (max-width: 1899.98px)
+{
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1900px)
+{
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+}
+
 .robnavbar .navbar-brand
 {
     color: #fff;
@@ -1565,9 +1597,9 @@ nav#dot-nav a.active
 .rob_corner
 {
     outline: none !important;
-    border-radius: 39px;
-    -moz-border-radius: 39px;
-    -webkit-border-radius: 39px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
     border: none;
 }
 
