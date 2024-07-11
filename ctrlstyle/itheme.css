@@ -245,6 +245,12 @@ nav.scroll
         border: none !important;
     }
 
+    .robnavbar .navbar-nav .nav-item
+    {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
     .robnavbar .navbar-nav .nav-link, .robnavbar .dropdown-item, .robnavbar .navbar-brand
     {
         font-size: 9px;
@@ -254,6 +260,13 @@ nav.scroll
     {
         font-family: 'etherealthin' , sans-serif;
         /*display: none;*/
+    }
+    
+    .robnavbar .navbar-toggler
+    {
+        padding: .25rem;
+        font-size: small;
+        border: none;
     }
 
 
@@ -343,7 +356,7 @@ nav.scroll
 
     .robmain_pre .fullname
     {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     .robmain_pre .robfullname
@@ -354,16 +367,16 @@ nav.scroll
 
     .robmain_pre .bespoke
     {
-        font-size: 22px;
-        line-height: 22px;
-        padding-top: 10px;
+        font-size: 14px;
+        line-height: 14px;
+        padding-top: 9px;
     }
 
     .robmain_pre .bespoke_line
     {
-        width: 22px;
+        width: 18px;
         height: 2px;
-        margin-top: 9px;
+        margin-top: 5px;
     }
 
     .robmain_pre .subbespoke
@@ -375,15 +388,15 @@ nav.scroll
 
     .robmain_pre .since
     {
-        font-size: 13px;
+        font-size: 10px;
         padding-top: 2px;
     }
 
     .robmain_pre .tailoring
     {
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: 50px;
-        margin-top: 300px;
+        margin-top: 100px;
     }
 
     .robmain_pre .subfullname
@@ -407,14 +420,14 @@ nav.scroll
     .hover_switch img
     {
         margin: 5px 3px;
-        width: 32px;
-        height: 32px;
+        width: 28px;
+        height: 28px;
     }
 
     .payment_serv img
     {
         margin: 5px 3px;
-        width: 61px;
+        width: 46px;
         height: auto;
     }
 
@@ -479,6 +492,12 @@ nav.scroll
     {
         display: none !important;
     }
+    
+    .trunk_show_r2_01
+    {
+        width: 255px;
+        height: auto;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -502,6 +521,12 @@ nav.scroll
     {
         font-family: 'etherealthin' , sans-serif;
         /*display: none;*/
+    }
+    
+    .robnavbar .navbar-toggler
+    {
+        padding: .25rem .55rem;
+        font-size: .85rem;
     }
 
     .robbgpre01
@@ -616,7 +641,7 @@ nav.scroll
     {
         font-size: 18px;
         margin-bottom: 100px;
-        margin-top: 350px;
+        margin-top: 130px;
     }
 
     .robmain_pre .subfullname
@@ -737,6 +762,12 @@ nav.scroll
         font-family: 'etherealthin' , sans-serif;
         /*display: none;*/
     }
+    
+    .robnavbar .navbar-toggler
+    {
+        padding: .25rem .55rem;
+        font-size: .85rem;
+    }
 
     .robbgpre01
     {
@@ -850,7 +881,7 @@ nav.scroll
     {
         font-size: 26px;
         margin-bottom: 100px;
-        margin-top: 300px;
+        margin-top: 230px;
     }
 
     .robmain_pre .subfullname
