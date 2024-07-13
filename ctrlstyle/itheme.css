@@ -326,8 +326,8 @@ nav.scroll
 
     .robwhitemask .title, .robgraymask .title
     {
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
     .robwhitemask .submenu, .robgraymask .submenu
@@ -438,7 +438,7 @@ nav.scroll
 
     .btntop .topimg
     {
-        left: 39%;
+        left: 35%;
     }
 
     .btncookies
@@ -465,12 +465,12 @@ nav.scroll
 
     .robfooter .title
     {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .robfooter .message
     {
-        font-size: 10px;
+        font-size: 9px;
         padding-top: 10px;
     }
 
@@ -1110,7 +1110,7 @@ nav.scroll
     {
         font-size: 28px;
         margin-bottom: 100px;
-        margin-top: 300px;
+        margin-top: 250px;
     }
 
     .robmain_pre .subfullname
