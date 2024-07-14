@@ -276,6 +276,7 @@ nav.scroll
     .robnavbar .navbar-nav .nav-link, .robnavbar .dropdown-item, .robnavbar .navbar-brand
     {
         font-size: 9px;
+        letter-spacing: .2em;
     }
     
     .robnavbar .navbar-brand
@@ -601,6 +602,7 @@ nav.scroll
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
         font-size: 15px;
+        letter-spacing: .2em;
     }
     .robnavbar .navbar-brand
     {
@@ -825,6 +827,7 @@ nav.scroll
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
         font-size: 15px;
+        letter-spacing: .2em;
     }
     .robnavbar .navbar-brand
     {
@@ -1048,10 +1051,12 @@ nav.scroll
         border-color: rgb(255, 255, 255);
     }
 
-    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    .robnavbar .navbar-nav .nav-link, .robnavbar .dropdown-item, .robnavbar .navbar-brand
     {
-        font-size: 7px;
+        font-size: 14px;
+        /*letter-spacing: .2em;*/
     }
+    
     .robnavbar .navbar-brand
     {
         display: none;
@@ -1471,7 +1476,7 @@ nav.scroll
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 7px;
+        font-size: 16px;
     }
 }
 
@@ -1480,7 +1485,7 @@ nav.scroll
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 11px;
+        font-size: 18px;
     }
 }
 
@@ -1489,7 +1494,7 @@ nav.scroll
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 
@@ -1498,7 +1503,8 @@ nav.scroll
 {
     .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
     {
-        font-size: 16px;
+        font-size: 22px;
+        letter-spacing: .1em;
     }
 }
 
