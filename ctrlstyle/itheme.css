@@ -114,7 +114,7 @@ html, body
     position: relative;
 }
 
-.robmain_pre .pagetitle, .robmain_pre .ult_pagetitle, .robmain_pre .main_pagetitle
+.robmain_pre .main_pagetitle
 {
     position: absolute;
     top: 50%;
@@ -540,34 +540,9 @@ nav.scroll
     }
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px)
+/* Extra large devices (large desktops, 576px and up) */
+@media (min-width: 576px)
 {
-    .letter_spacing
-    {
-        letter-spacing: .2em;
-    }
-
-    .robnavbar .navbar-nav .nav-link
-    {
-        border: none !important;
-    }
-
-    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
-    {
-        font-size: 15px;
-    }
-    .robnavbar .navbar-brand
-    {
-        font-family: 'etherealthin' , sans-serif;
-        /*display: none;*/
-    }
-    
-    .robnavbar .navbar-toggler
-    {
-        padding: .25rem .55rem;
-        font-size: .85rem;
-    }
 
     .robbgpre01
     {
@@ -608,6 +583,36 @@ nav.scroll
     {
         background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
     }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .letter_spacing
+    {
+        letter-spacing: .2em;
+    }
+
+    .robnavbar .navbar-nav .nav-link
+    {
+        border: none !important;
+    }
+
+    .robnavbar .navbar-nav .nav-link,.robnavbar .dropdown-item,.robnavbar .navbar-brand
+    {
+        font-size: 15px;
+    }
+    .robnavbar .navbar-brand
+    {
+        font-family: 'etherealthin' , sans-serif;
+        /*display: none;*/
+    }
+    
+    .robnavbar .navbar-toggler
+    {
+        padding: .25rem .55rem;
+        font-size: .85rem;
+    }
 
     .robwhitemask .title, .robgraymask .title
     {
@@ -644,11 +649,6 @@ nav.scroll
         font-size: 38px;
     }
 
-    .robmain_pre .robfullname
-    {
-        font-size: 34px;
-    }
-
     .robmain_pre .bespoke
     {
         font-size: 28px;
@@ -663,13 +663,6 @@ nav.scroll
         margin-top: 9px;
     }
 
-    .robmain_pre .subbespoke
-    {
-        font-size: 24px;
-        line-height: 24px;
-        padding-top: 20px;
-    }
-
     .robmain_pre .since
     {
         font-size: 14px;
@@ -681,11 +674,49 @@ nav.scroll
         font-size: 18px;
         margin-bottom: 100px;
     }
+    
+    /****main sub page****/
+    .robmain_pre .pagetitle
+    {
+        font-size: 36px;
+    }
+    
+    .robmain_pre .ult_pagetitle
+    {
+        font-size: 32px;
+    }
 
-    .robmain_pre .subfullname
+    .robmain_pre .ult_pagedetail
+    {
+        padding: 0px 50px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .robmain_pre .robfullname
+    {
+        font-size: 24px;
+    }
+
+    .robmain_pre .subbespoke
     {
         font-size: 18px;
-        margin-top: 20px;
+        line-height: 18px;
+        padding-top: 9px;
+    }
+
+    .robmain_pre .subbespoke_line
+    {
+        width: 20px;
+        height: 2px;
+        margin-top: 5px;
+    }
+
+    .robmain_pre .subsince
+    {
+        font-size: 10px;
+        padding-top: 2px;
+        padding-bottom: 40px;
     }
 
     nav#dot-nav
@@ -807,46 +838,6 @@ nav.scroll
         font-size: .85rem;
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/Homepage_BG1.jpg');
-    }
-
-    .robbgpre02
-    {
-        background-image: url('../img/Homepage_BG2.jpg');
-    }
-
-    .robbgpre03
-    {
-        background-image: url('../img/rob_youtube/Homepage_BG3.jpg');
-    }
-
-    .robbgpreG01
-    {
-        background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
-    }
-
-    .robbgpreA01
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
-    }
-
-    .robbgpreA02
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
-    }
-
-    .robbgpreTS01
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
-    }
-
-    .robbgpreTS02
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
-    }
-
     .robwhitemask .title, .robgraymask .title
     {
         font-size: 34px;
@@ -882,11 +873,6 @@ nav.scroll
         font-size: 44px;
     }
 
-    .robmain_pre .robfullname
-    {
-        font-size: 34px;
-    }
-
     .robmain_pre .bespoke
     {
         font-size: 32px;
@@ -901,13 +887,6 @@ nav.scroll
         margin-top: 12px;
     }
 
-    .robmain_pre .subbespoke
-    {
-        font-size: 24px;
-        line-height: 24px;
-        padding-top: 20px;
-    }
-
     .robmain_pre .since
     {
         font-size: 16px;
@@ -919,13 +898,51 @@ nav.scroll
         font-size: 26px;
         margin-bottom: 100px;
     }
-
-    .robmain_pre .subfullname
+    
+    /****main sub page****/
+    .robmain_pre .pagetitle
     {
+        font-size: 44px;
+    }
+    
+    .robmain_pre .ult_pagetitle
+    {
+        font-size: 38px;
+    }
+
+    .robmain_pre .ult_pagedetail
+    {
+        padding: 0px 60px;
         font-size: 18px;
         margin-top: 25px;
     }
 
+    .robmain_pre .robfullname
+    {
+        font-size: 28px;
+    }
+
+    .robmain_pre .subbespoke
+    {
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 9px;
+    }
+
+    .robmain_pre .subbespoke_line
+    {
+        width: 22px;
+        height: 2px;
+        margin-top: 5px;
+    }
+
+    .robmain_pre .subsince
+    {
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 50px;
+    }
+    
     nav#dot-nav
     {
         right: 20px;
@@ -1040,46 +1057,6 @@ nav.scroll
         display: none;
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/Homepage_BG1.jpg');
-    }
-
-    .robbgpre02
-    {
-        background-image: url('../img/Homepage_BG2.jpg');
-    }
-
-    .robbgpre03
-    {
-        background-image: url('../img/rob_youtube/Homepage_BG3.jpg');
-    }
-
-    .robbgpreG01
-    {
-        background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
-    }
-
-    .robbgpreA01
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
-    }
-
-    .robbgpreA02
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
-    }
-
-    .robbgpreTS01
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
-    }
-
-    .robbgpreTS02
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
-    }
-
     .robwhitemask .title, .robgraymask .title
     {
         font-size: 38px;
@@ -1115,11 +1092,6 @@ nav.scroll
         font-size: 52px;
     }
 
-    .robmain_pre .robfullname
-    {
-        font-size: 34px;
-    }
-
     .robmain_pre .bespoke
     {
         font-size: 32px;
@@ -1134,13 +1106,6 @@ nav.scroll
         margin-top: 13px;
     }
 
-    .robmain_pre .subbespoke
-    {
-        font-size: 24px;
-        line-height: 24px;
-        padding-top: 20px;
-    }
-
     .robmain_pre .since
     {
         font-size: 18px;
@@ -1152,11 +1117,49 @@ nav.scroll
         font-size: 28px;
         margin-bottom: 100px;
     }
-
-    .robmain_pre .subfullname
+    
+    /****main sub page****/
+    .robmain_pre .pagetitle
     {
+        font-size: 56px;
+    }
+    
+    .robmain_pre .ult_pagetitle
+    {
+        font-size: 48px;
+    }
+
+    .robmain_pre .ult_pagedetail
+    {
+        padding: 0px 50px;
         font-size: 20px;
         margin-top: 28px;
+    }
+
+    .robmain_pre .robfullname
+    {
+        font-size: 34px;
+    }
+
+    .robmain_pre .subbespoke
+    {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 16px;
+    }
+
+    .robmain_pre .subbespoke_line
+    {
+        width: 26px;
+        height: 2px;
+        margin-top: 7px;
+    }
+
+    .robmain_pre .subsince
+    {
+        font-size: 14px;
+        padding-top: 4px;
+        padding-bottom: 60px;
     }
 
     nav#dot-nav
@@ -1269,46 +1272,6 @@ nav.scroll
         display: none;
     }
 
-    .robbgpre01
-    {
-        background-image: url('../img/Homepage_BG1.jpg');
-    }
-
-    .robbgpre02
-    {
-        background-image: url('../img/Homepage_BG2.jpg');
-    }
-
-    .robbgpre03
-    {
-        background-image: url('../img/rob_youtube/Homepage_BG3.jpg');
-    }
-
-    .robbgpreG01
-    {
-        background-image: url('../img/rob_gallery/BG_Gallery_Page_Maun.jpg');
-    }
-
-    .robbgpreA01
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
-    }
-
-    .robbgpreA02
-    {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG2.jpg');
-    }
-
-    .robbgpreTS01
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_1.jpg');
-    }
-
-    .robbgpreTS02
-    {
-        background-image: url('../img/rob_trunk_show/Trunk_Show_BG_2.jpg');
-    }
-
     .robwhitemask .title, .robgraymask .title
     {
         font-size: 48px;
@@ -1344,11 +1307,6 @@ nav.scroll
         font-size: 64px;
     }
 
-    .robmain_pre .robfullname
-    {
-        font-size: 34px;
-    }
-
     .robmain_pre .bespoke
     {
         font-size: 44px;
@@ -1363,20 +1321,6 @@ nav.scroll
         margin-top: 15px;
     }
 
-    .robmain_pre .subbespoke
-    {
-        font-size: 24px;
-        line-height: 24px;
-        padding-top: 20px;
-    }
-
-    .robmain_pre .subbespoke_line
-    {
-        width: 50px;
-        height: 5px;
-        margin-top: 8px;
-    }
-
     .robmain_pre .since
     {
         font-size: 18px;
@@ -1388,11 +1332,50 @@ nav.scroll
         font-size: 24px;
         margin-bottom: 80px;
     }
-
-    .robmain_pre .subfullname
+    
+    /****main sub page****/
+    .robmain_pre .pagetitle
     {
+        font-size: 64px;
+    }
+    
+    .robmain_pre .ult_pagetitle
+    {
+        font-size: 64px;
+        line-height: 84px;
+    }
+
+    .robmain_pre .ult_pagedetail
+    {
+        padding: 0px 80px;
         font-size: 22px;
         margin-top: 30px;
+    }
+
+    .robmain_pre .robfullname
+    {
+        font-size: 34px;
+    }
+
+    .robmain_pre .subbespoke
+    {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 20px;
+    }
+
+    .robmain_pre .subbespoke_line
+    {
+        width: 28px;
+        height: 3px;
+        margin-top: 8px;
+    }
+
+    .robmain_pre .subsince
+    {
+        font-size: 14px;
+        padding-top: 4px;
+        padding-bottom: 60px;
     }
 
     nav#dot-nav
