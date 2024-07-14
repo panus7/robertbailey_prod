@@ -31,6 +31,7 @@
     font-style: normal;
 }
 
+
 /***********affect image***********/
 .eff_img_zoomin
 {
@@ -114,18 +115,6 @@
     background-color: #1C2C4F;
 }
 
-.gallpresentbox .fullheight
-{
-    /*height: 828px;*/
-    height: 908px;
-}
-
-.gallpresentbox .halfheight
-{
-    /*height: 414px;*/
-    height: 436px;
-}
-
 .gallpresentbox img
 {
     width: 100%;
@@ -179,6 +168,16 @@
         width: 255px;
     }
 
+    .gallpresentbox .fullheight
+    {
+        height: 340px;
+    }
+
+    .gallpresentbox .halfheight
+    {
+        height: 340px;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -212,6 +211,32 @@
         width: 500px;
     }
 
+    .gallpresentbox .fullheight
+    {
+        height: 666px;
+    }
+
+    .gallpresentbox .halfheight
+    {
+        height: 333px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 768px and up) */
+@media (min-width: 768px)
+{
+    .gallpresentbox .fullheight
+    {
+        /*height: 828px;*/
+        height: 908px;
+    }
+
+    .gallpresentbox .halfheight
+    {
+        /*height: 414px;*/
+        height: 436px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
