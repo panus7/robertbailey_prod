@@ -86,14 +86,12 @@
 .productbox
 {
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 15px;
-    height: 100%;
+    padding: 15px; height: 100%;
 }
 
 .productbox .prod_detail
 {
     padding: 20px 0px 10px 0px;
-    min-height: 420px;
 }
 
 .prod_detail .title
@@ -178,6 +176,20 @@
         height: 340px;
     }
 
+    .productbox .prod_img
+    {
+        height: 340px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 576px and up) */
+@media (min-width: 576px)
+{
+    .productbox .prod_detail
+    {
+        min-height: 420px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
