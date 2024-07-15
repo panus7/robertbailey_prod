@@ -1948,6 +1948,7 @@ nav#dot-nav a.active
 .noneborder
 {
     border: none;
+    margin-right: 20px;
 }
 
 /*.modal-header
