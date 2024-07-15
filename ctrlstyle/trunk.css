@@ -1,10 +1,17 @@
 
-.modal-image {
+/* .modal-image {
   max-width: 100%;
   height: auto;
   object-fit: contain;
-}
+} */
 
+/* .modal-content {
+  width: 700px;
+}
+.modal-body {
+  padding: 0;
+}
+  */
 /*.modal-backdrop {
   position: fixed;
   width: 100% !important;
