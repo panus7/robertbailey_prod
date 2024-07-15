@@ -259,12 +259,12 @@ nav.scroll
 
     .letter_spacing
     {
-        letter-spacing: .2em;
+        letter-spacing: .2em;        
     }
 
     .robnavbar .navbar-nav .nav-link
     {
-        border: none !important;
+        border: none !important;        
     }
 
     .robnavbar .navbar-nav .nav-item
@@ -1053,7 +1053,9 @@ nav.scroll
 
     .robnavbar .navbar-nav .nav-link, .robnavbar .dropdown-item, .robnavbar .navbar-brand
     {
-        font-size: 14px;
+        font-size: 13.5px;
+        font-weight: 600;
+        white-space: nowrap;
         /*letter-spacing: .2em;*/
     }
     
@@ -1270,6 +1272,8 @@ nav.scroll
         border-style: solid;
         border-width: 0px 1px 0px 0px;
         border-color: rgb(255, 255, 255);
+        white-space: nowrap;
+        /* hopeadd */
     }
     
     .robnavbar .navbar-brand
