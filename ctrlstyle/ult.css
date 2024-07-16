@@ -33,46 +33,60 @@
     /*ultimate*/
     .robbgpreULmain {
         background-image: url('../img/rob_ultimate/ultimate_picture01_2.jpg');
+        background-size: 100% 100%;
     }
 
     .robbgpreULdetail {
         background-image: url('../img/rob_ultimate/ultimate_picture02_2.jpg');
+        background-size: 100% 100%;
     }
 
     .robbgpreUL01 {
         background-image: url('../img/rob_ultimate/ultimate_picture03_2.jpg');
+        background-size: 100% 100%;
     }
 
     .robbgpreUL02 {
         background-image: url('../img/rob_ultimate/ultimate_picture04_2.jpg');
+        background-size: 100% 100%;
     }
 
     .robbgpreUL03 {
         background-image: url('../img/rob_ultimate/ultimate_picture05_2.jpg');
+        background-size: contain;
+        min-height: 700;
     }
 
     .robbgpreUL04 {
         background-image: url('../img/rob_ultimate/ultimate_picture06_2.jpg');
+        background-size: contain;
+        min-height: 700;
     }
 
     .robbgpreUL05 {
         background-image: url('../img/rob_ultimate/ultimate_picture07_2.jpg');
+        background-size: contain;
+        min-height: 700;
     }
 
     .robbgpreUL06 {
         background-image: url('../img/rob_ultimate/ultimate_picture08_2.jpg');
+        background-size: contain;
     }
 
     .robbgpreUL07 {
         background-image: url('../img/rob_ultimate/ultimate_picture09_2.jpg');
+        background-size: contain;
     }
 
     .robbgpreUL08 {
         background-image: url('../img/rob_ultimate/ultimate_picture11_2.jpg');
+        background-size: contain;
     }
 
     .robbgpreUL09 {
         background-image: url('../img/rob_ultimate/ultimate_picture10_2.jpg');
+        background-size: contain;
     }
 
     /* about */

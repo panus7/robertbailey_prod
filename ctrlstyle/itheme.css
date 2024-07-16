@@ -306,13 +306,13 @@ nav.scroll
     .robbgpre01
     {
         background-image: url('../img/Homepage_BG1_375.jpg');
-        background-size: 100% 100%;
+        background-size: contain;
     }
 
     .robbgpre02
     {
         background-image: url('../img/Homepage_BG2_375.jpg');
-        background-size: 100% 100%;
+        background-size: cover;
     }
 
 
