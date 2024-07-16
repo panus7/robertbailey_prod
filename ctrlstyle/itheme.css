@@ -130,6 +130,20 @@ html, body
     left: 0;
 }
 
+.divrobfullname-40
+{
+    position: absolute;
+    bottom: -40;
+    left: 0;
+}
+
+.divrobfullname-60
+{
+    position: absolute;
+    bottom: -60;
+    left: 0;
+}
+
 
 .robmain_pre .bespoke_line, .robmain_pre .subbespoke_line
 {
