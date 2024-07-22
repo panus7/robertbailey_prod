@@ -273,7 +273,8 @@ nav.scroll
 
     .letter_spacing
     {
-        letter-spacing: .2em;        
+        /* letter-spacing: .2em;         */
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link
@@ -343,7 +344,8 @@ nav.scroll
 
     .robbgpreA01
     {
-        background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg');
+        background-image: url('../img/Homepage_Acc_BG1_375.jpg');
+        /* background-image: url('../img/rob_accessories/BG_Accessories_page_BG1.jpg'); */
     }
 
     .robbgpreA02
@@ -605,7 +607,8 @@ nav.scroll
 {
     .letter_spacing
     {
-        letter-spacing: .2em;
+        /* letter-spacing: .2em;         */
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link
@@ -830,7 +833,8 @@ nav.scroll
 {
     .letter_spacing
     {
-        letter-spacing: .2em;
+        /* letter-spacing: .2em;         */
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link
@@ -1055,7 +1059,8 @@ nav.scroll
 {
     .letter_spacing
     {
-        letter-spacing: .2em;
+        /* letter-spacing: .2em;         */
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link
@@ -1279,7 +1284,8 @@ nav.scroll
 {
     .letter_spacing
     {
-        letter-spacing: .2em;
+        /* letter-spacing: .2em;         */
+        letter-spacing: .1em;
     }
 
     .robnavbar .navbar-nav .nav-link
