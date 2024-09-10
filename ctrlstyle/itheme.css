@@ -1254,7 +1254,7 @@ nav.scroll
     .letter_spacing
     {
         /* letter-spacing: .2em;         */
-        letter-spacing: .1em;
+        letter-spacing: .08em;
     }
 
     .robnavbar .navbar-nav .nav-link
