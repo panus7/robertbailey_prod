@@ -1664,7 +1664,8 @@ nav#dot-nav a.active
 
 .hover_switch
 {
-    position: relative; /*display: inline-block;*/
+    position: relative;
+    display: inline-block;
 }
 
 .hover_switch .img_top
@@ -1684,7 +1685,8 @@ nav#dot-nav a.active
 /*******/
 .imghover_switch
 {
-    position: relative; /*display: inline-block;*/
+    position: relative;
+    display: inline-block;
 }
 
 .imghover_switch .img_top
