@@ -41,11 +41,11 @@ async function fetchLanguageData(lang) {
   function changLangChangeImg(currentLanguage) {
     console.log("currentLanguage : ", currentLanguage);
     if (currentLanguage === "jp") {
-      changeImage_contact("img/Icon/btn_contact_us.png");
-      changeImage_top("img/Icon/Button_Icon-01.png");
+      changeImage_contact("img/Icon/btn_contact_us_jp.png");
+      changeImage_top("img/Icon/Button_Icon-jp.png");
     } else if (currentLanguage === "kr") {
-      changeImage_contact("img/Icon/btn_contact_us.png");
-      changeImage_top("img/Icon/Button_Icon-01.png");
+      changeImage_contact("img/Icon/btn_contact_us_kr.png");
+      changeImage_top("img/Icon/Button_Icon-kr.png");
     } else if (currentLanguage === "tc") {
       changeImage_contact("img/Icon/btn_contact_us_ch.png");
       changeImage_top("img/Icon/Button_Icon-ch.png");
