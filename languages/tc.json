@@ -52,6 +52,12 @@
     "accessories_story_detail04":"",
     "accessories_story_detail05":"",
     "accessories_story_detail06":"",
+    "accessories_story_detail07":"",
+    "accessories_story_detail08":"",
+    "accessories_story_detail09":"",
+    "accessories_story_detail10":"",
+    "accessories_story_detail11":"",
+    "accessories_story_detail12":"",
 
     "accessories_product_topic":"产品简介 :",
 
@@ -130,6 +136,11 @@
     "gall_story02":"",
     "gall_story03":"",
     "gall_story04":"",
+    "gall_story05":"",
+    "gall_story06":"",
+    "gall_story07":"",
+    "gall_story08":"",
+    "gall_story09":"",
 
     "gall_menu_1":"单排扣西装",
     "gall_menu_2":"双排扣西装",
@@ -169,7 +180,12 @@
     "ult_story05":"一旦我们最终确定服装纸样, 我们将标记并预留充分缝制空间进行正式裁剪, 以便将来对衣服进行必要的调整。然后, 我们会将布料交给我们最优秀、最有经验的裁缝之一, 为服装的首次试穿进行粗缝。",
     "ult_story06":"我们将试穿毛样, 共同讨论衣服的舒适度和外观, 确保我们都对定制服装的制作进展感到满意。",
     "ult_story07":"返回到裁剪工作室后, 拜利先生将根据首次试穿的结果对毛样进行调整和精细化裁剪。裁缝师随后会为最终试穿对衣服进行最后的缝制。",
-    "ult_story08":"这次见面时, 我们将确保双方都满意定制衣服的最终呈现效果。一切都很完美, 您的定制西装或礼服已准备好被交付并供您舒适愉悦地穿着！",
+    "ult_story08_r1":"这次见面时, 我们将确保双方都满意定制衣服的最终呈现效果。一切都很完美, 您的定制西装或礼服已准备好被交付并供您舒适愉悦地穿着！",
+    "ult_story08_r2":"",
+    "ult_story08_r3":"",
+    "ult_story08_r4":"",
+    "ult_story08_r5":"",
+    "ult_story08_r6":"",
     "ult_story09":"如果您在购买后需要对衣服进行修改或希望丰富您的定制服饰收藏，我们可以根据下一次定制巡展排期和日程预约见面。",
  
     "about_fontmain":"关于我们",

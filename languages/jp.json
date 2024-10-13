@@ -52,6 +52,12 @@
     "accessories_story_detail04":"",
     "accessories_story_detail05":"",
     "accessories_story_detail06":"",
+    "accessories_story_detail07":"",
+    "accessories_story_detail08":"",
+    "accessories_story_detail09":"",
+    "accessories_story_detail10":"",
+    "accessories_story_detail11":"",
+    "accessories_story_detail12":"",
 
     "accessories_product_topic":"Product Detail :",
 
@@ -129,6 +135,11 @@
     "gall_story02":"",
     "gall_story03":"",
     "gall_story04":"",
+    "gall_story05":"",
+    "gall_story06":"",
+    "gall_story07":"",
+    "gall_story08":"",
+    "gall_story09":"",
 
     "gall_menu_1":"シングルブレスト",
     "gall_menu_2":"ダブルブレスト",
@@ -168,7 +179,12 @@
     "ult_story05":"お気に入りのパターンが完成したら、今後必要になるかもしれない調整のためにマークを付け、 十分な量の縫い代で裁断します。 これは最初のフィッティングの準備をするために、当社の最も 優れた経験豊富なコートとパンツの仕立て屋に渡されます。",
     "ult_story06":"仮縫いしたスーツを試着していただき、着心地や見た目について一緒に話し合い、その段階で双方 が満足していることを確認いたします。",
     "ult_story07":"裁断室では、ロバートベイリーが試着時の話し合いをもとに、最終の型紙を調整し生地を改めて 裁断します。 その後仕立て屋が最終フィッティングの予定日に向けて衣服を仕上げていきます。",
-    "ult_story08":"この面談では、お客様のオーダーされた内容、双方が満足していることを確認します。 すべてが 完璧であれば、オーダー商品をお持ち帰りし、快適な着心地を楽しんでいただけます。",
+    "ult_story08_r1":"この面談では、お客様のオーダーされた内容、双方が満足していることを確認します。 すべてが 完璧であれば、オーダー商品をお持ち帰りし、快適な着心地を楽しんでいただけます。",
+    "ult_story08_r2":"",
+    "ult_story08_r3":"",
+    "ult_story08_r4":"",
+    "ult_story08_r5":"",
+    "ult_story08_r6":"",
     "ult_story09":"最初の購入後にお直しが必要な場合、またはオーダーメイドのコレクションに追加したい場合は、 スケジュールと日付を確認した上で、次回の定期訪問時に予約を手配することができます。",
  
     "about_fontmain":"私たちについて",
