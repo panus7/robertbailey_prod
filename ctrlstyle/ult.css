@@ -9,7 +9,7 @@
     padding-bottom: 100px;
     width: 100%;
 }
-.detailcontent .subdetail div
+.detailcontent .subdetail_box
 {
     padding: 30px 0px;
 }
@@ -144,9 +144,12 @@
         font-size: 11px;
         padding-top: 70px;
     }
-    .detailcontent .subdetail div
+    .detailcontent .subdetail_box
     {
         font-size: 14px;
+    }
+    .detailcontent .subdetail_fomate
+    {
         text-indent: 30px;
     }
     .detailcontent .ult_if_main img
@@ -262,9 +265,12 @@
         font-size: 16px;
         padding-top: 70px;
     }
-    .detailcontent .subdetail div
+    .detailcontent .subdetail_box
     {
         font-size: 16px;
+    }
+    .detailcontent .subdetail_fomate
+    {
         text-indent: 40px;
     }
     .detailcontent .ult_if_main img
@@ -303,9 +309,12 @@
         font-size: 20px;
         padding-top: 70px;
     }
-    .detailcontent .subdetail div
+    .detailcontent .subdetail_box
     {
         font-size: 20px;
+    }
+    .detailcontent .subdetail_fomate
+    {
         text-indent: 50px;
     }
     .detailcontent .ult_if_main img
@@ -344,9 +353,12 @@
         font-size: 26px;
         padding-top: 70px;
     }
-    .detailcontent .subdetail div
+    .detailcontent .subdetail_box
     {
         font-size: 26px;
+    }
+    .detailcontent .subdetail_fomate
+    {
         text-indent: 65px;
     }
     .detailcontent .ult_if_main img
@@ -374,9 +386,12 @@
         font-size: 31px;
         padding-top: 70px;
     }
-    .detailcontent .subdetail div
+    .detailcontent .subdetail_box
     {
         font-size: 31px;
+    }
+    .detailcontent .subdetail_fomate
+    {
         text-indent: 75px;
     }
     .detailcontent .ult_if_main img
