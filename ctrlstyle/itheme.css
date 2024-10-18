@@ -1773,7 +1773,7 @@ nav#dot-nav a.active
 
 .navimg-pills
 {
-    min-height: 304px;
+    min-height: 344px;
 }
 
 .navimg-pills .nav-link
@@ -1862,6 +1862,16 @@ nav#dot-nav a.active
 .phonebutton.nav-link.active, .phonebutton .show > .nav-link
 {
     background-image: url('../img/Icon/Phone_Icon_Active-01.png');
+}
+
+.xiaohongshubutton.nav-link
+{
+    background-image: url('../img/Icon/Xiaohongshu_Normal.png');
+}
+
+.xiaohongshubutton.nav-link.active, .xiaohongshubutton .show > .nav-link
+{
+    background-image: url('../img/Icon/Xiaohongshu_Active.png');
 }
 
 
