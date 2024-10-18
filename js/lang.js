@@ -27,21 +27,34 @@ async function fetchLanguageData(lang) {
       
       if(hasjsonprop)
       {
-        //element.textContent = langData[key];
-        if (langData[key].includes("<br/>")) {
-          element.innerHTML = langData[key];
-          } else {
-              element.textContent = langData[key];
-          }
+        if(langData[key])
+        {
+          //element.textContent = langData[key];
+          if (langData[key].includes("<br/>")) {
+            element.innerHTML = langData[key];
+            } else {
+                element.textContent = langData[key];
+            }
+        }  
+        else{
+          console.log('lang-data=' + key)
+        }      
       }
       else
       { 
         //element.textContent = langDataDefault[key];
-        if (langDataDefault[key].includes("<br/>")) {
-          element.innerHTML = langDataDefault[key];
-      } else {
-          element.textContent = langDataDefault[key];
-      }
+        if(langDataDefault[key])
+        {
+          if (langDataDefault[key].includes("<br/>")) {
+            element.innerHTML = langDataDefault[key];
+          } else {
+              element.textContent = langDataDefault[key];
+          }
+        }
+        else{
+          console.log('lang-default-data=' + key)
+        }      
+        
       }
       
     });
