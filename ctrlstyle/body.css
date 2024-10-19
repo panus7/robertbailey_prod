@@ -1,31 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Noto+Sans+KR&family=Noto+Sans+TC&family=Noto+Serif+JP&display=swap');
+@import url('../fonts/stylesheet.css');
 
-body {
-    font-family: Arial, sans-serif;
-    /* background-color: #f0f0f0; */
-    /* color: #333; */
-}
-
-body.jp {
-    font-family: "Noto Serif JP", serif;
-    text-decoration: underline;
-    /* font-weight: 400; */
-    /* font-style: normal;
-    background-color: #8386dd; */
-}
-
-body.kr {
-    font-family: "Noto Sans KR", sans-serif;
-    text-decoration: underline;
-    /* font-weight: 400;
+body.en
+{
+    font-weight: 400;
     font-style: normal;
-    background-color: #3caf51; */
 }
 
-body.tc {
-    font-family: "Noto Sans TC", sans-serif;
-    text-decoration: underline;
-    /* font-weight: 400;
+/*********fonts**********/
+body.en .fontmain
+{
+    font-family: 'etherealthin' , sans-serif;
+}
+
+body.en .fontsub
+{
+    font-family: 'acuminlight' , sans-serif;
+}
+
+body.jp
+{
+    font-family: "Noto Serif JP" , serif;
+    font-weight: 400;
     font-style: normal;
-    background-color: #ca83dd; */
+}
+
+/*********fonts**********/
+body.jp .fontmain, body.jp .fontsub
+{
+    font-family: 'Noto Serif JP' , sans-serif;
+}
+body.kr
+{
+    font-family: "Noto Sans KR" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*********fonts**********/
+body.kr .fontmain, body.kr .fontsub
+{
+    font-family: 'Noto Sans KR' , sans-serif;
+}
+
+body.tc
+{
+    font-family: "Noto Sans TC" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*********fonts**********/
+body.tc .fontmain, body.tc .fontsub
+{
+    font-family: 'Noto Sans TC' , sans-serif;
 }
