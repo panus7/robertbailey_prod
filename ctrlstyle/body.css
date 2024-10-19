@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Noto+Sans+KR&family=Noto+Sans+TC&family=Noto+Serif+JP&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    /* color: #333; */
+}
+
+body.jp {
+    font-family: "Noto Serif JP", serif;
+    text-decoration: underline;
+    /* font-weight: 400; */
+    /* font-style: normal;
+    background-color: #8386dd; */
+}
+
+body.kr {
+    font-family: "Noto Sans KR", sans-serif;
+    text-decoration: underline;
+    /* font-weight: 400;
+    font-style: normal;
+    background-color: #3caf51; */
+}
+
+body.tc {
+    font-family: "Noto Sans TC", sans-serif;
+    text-decoration: underline;
+    /* font-weight: 400;
+    font-style: normal;
+    background-color: #ca83dd; */
+}

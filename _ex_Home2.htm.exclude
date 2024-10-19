@@ -9,6 +9,7 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="awesome5.14.0/css/all.css" />
     <link rel="stylesheet" href="ctrlstyle/itheme.css" />
+    <link rel="stylesheet" href="ctrlstyle/body.css" />
 </head>
 <body>
     <div class="bgfixed robbgpre01">
