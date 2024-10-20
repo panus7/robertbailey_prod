@@ -1,3 +1,14 @@
+.modal-image {
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* .modal-image {
   max-width: 100%;
