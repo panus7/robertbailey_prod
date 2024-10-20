@@ -10,6 +10,26 @@
 }
 
 
+
+/* Additional CSS for responsive image handling */
+.modal-image img {
+  object-fit: contain; /* Ensure the image fits within its container */
+}
+
+@media (orientation: landscape) {
+  .modal-image img {
+      height: auto; /* Allow the image to expand to fill the modal width */
+      max-width: 100%;
+  }
+}
+
+@media (orientation: portrait) {
+  .modal-image img {
+      width: auto; /* Allow the image to expand to fill the modal height */
+      max-height: 100%;
+  }
+}
+
 /* .modal-image {
   max-width: 100%;
   height: auto;
