@@ -28,7 +28,7 @@ function updateContent(langData, langDataDefault) {
         }
       }
       else {
-        console.log('lang-data=' + key)
+        //console.log('lang-data=' + key)
       }
     }
     else {
@@ -41,7 +41,7 @@ function updateContent(langData, langDataDefault) {
         }
       }
       else {
-        console.log('lang-default-data=' + key)
+        //console.log('lang-default-data=' + key)
       }
 
     }
