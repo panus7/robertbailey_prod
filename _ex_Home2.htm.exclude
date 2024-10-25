@@ -137,7 +137,7 @@
             Phone: +44 7709 420 841
         </div>
         <div style="padding-top: 57px">
-            <a class="hover_switch" href="#" data-toggle="modal" data-target="#exampleModal">
+            <a class="hover_switch" href="https://line.me/ti/p/~rob_bailey" target="_blank">
                 <img src="img/Icon/Line_Normal-01.jpg" class="img_top" alt="Line">
                 <img src="img/Icon/Line_Active-01.jpg" alt="Line">
             </a><a class="hover_switch" href="#">
