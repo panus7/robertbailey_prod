@@ -6,13 +6,13 @@
   }
  
   */
-
+ 
 /* สำหรับอุปกรณ์มือถือขนาดเล็ก */
 @media (max-width: 575.98px) {
 
     img {
         width: 100%;
-        height: 80vh;
+        height: 95vh;
         object-fit: contain;
       }
     
@@ -51,7 +51,7 @@
 @media (min-width: 576px) and (max-width: 767px) {
   img {
     width: 100%;
-    height: 80vh;
+    height: 95vh;
     object-fit: contain;
   }
 
@@ -90,7 +90,7 @@
 @media (min-width: 768px) and (max-width: 1299px) {
   img {
     width: 100%;
-    height: 80vh;
+    height: 95vh;
     object-fit: contain;
   }
 
@@ -130,10 +130,9 @@
 @media (min-width: 1299px) {
   img {
     width: 100%;
-    height: 80vh;
-    object-fit: contain;
-  }
-
+    height: 95vh;
+    object-fit: contain; 
+  } 
   .swiper-container {
     width: 100%;
 
