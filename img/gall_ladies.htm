@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Robert bailey : Image Gallery (Double breasted)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="ctrlstyle/gall_slide.css" />
+</head>
+<body style="background-color: #081d54;">
+    
+
+    <div class="swiper-container slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 1.jpg" alt=""></div>  
+            <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 2.jpg" alt=""></div>  
+            <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 3.jpg" alt=""></div>  
+            <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 4.jpg" alt=""></div>  
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+     
+    <div class="swiper-container slider-thumbnail">
+        <div class="swiper-wrapper">            
+            <!-- <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 1.jpg" alt=""></div>  
+            <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 2.jpg" alt=""></div>  
+            <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 3.jpg" alt=""></div>  
+            <div class="swiper-slide"><img src="/img/gall/Ladies/Ladies 4.jpg" alt=""></div>   -->
+        </div>
+    </div>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+ 
+
+//     var swiper = new Swiper(".mySwiper", {
+//       pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//       },
+
+//       navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//         }, 
+
+//         thumbs: {
+//     swiper: sliderThumbnail
+//   }
+//     });
+
+//     var sliderThumbnail = new Swiper('.slider-thumbnail', {
+//   slidesPerView: 4,
+//   freeMode: true,
+//   watchSlidesVisibility: true,
+//   watchSlidesProgress: true,
+// });
+
+
+var sliderThumbnail = new Swiper('.slider-thumbnail', {
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
+});
+ 
+var slider = new Swiper('.slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  thumbs: {
+    swiper: sliderThumbnail
+  }
+});
+
+
+  </script>
+</body>
+</html>
+ 
